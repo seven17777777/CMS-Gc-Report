@@ -186,25 +186,24 @@ public class CMSOptimization {
 ```
 
 </details>
-程序的介绍：程序分配10000M内存，并使用。中间有暂停程序10000ms作为模拟其他程序运行，中间打印各种数据。
+程序的介绍：程序分配10000M内存，并使用。中间有暂停程序10000ms作为模拟其他程序运行，可以通过调整oneAllocate的大小确定一次使用空间大小，中间打印各种数据。
 
-## 1、修改初始堆内存大小可以减少GC次数
-
-```angular2html
--Xmx4g
--Xms4g
+## 1、对程序的Xmx（最大堆内存）参数进行调优
+参数为
 ```
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx4g
+-Xloggc:./gc.log
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+增加调整参数及其并分析日志得到下图，可以看出再最大堆达到256m以后，程序对堆变化就不敏感，甚至停止了。这是因为，我们的程序一次分配1m，10次才使用。所以该程序并不能最好的体现CMS的痛点。
+![img.png](img.png)
+修改程序的oneAllocate为100
 
-<details>
-    <summary>调整初始堆大小为2G.log日志</summary>
 
-</details>
-
-<details>
-    <summary>调整初始堆大小为4G.log日志</summary>
-
-</details>
-运行GC日志比较如下图，可以看出，初始堆内存不设置的时候，需要12次CMS，初始内存为2G的时候只需要7次，初始内存为4G的时候，只需要6次。
 
 ![img](image/clip_image008.jpg)
 
