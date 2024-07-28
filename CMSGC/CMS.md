@@ -142,7 +142,7 @@ Total time for which application threads were stopped: 0.0018594 seconds, Stoppi
 
 ![img](image/clip_image006.jpg)
 
-# 5、调整参数
+# 5、调整参数优化程序
 重新编写调优程序
 [进行调优的java程序](ZgcOptimization.java)
 <details>
@@ -610,3 +610,62 @@ pause
 分析得到下面结果，从结果看，ParallelCMSThreads并不能击中要害，对程序帮助不大
 
 ![img_14.png](img_14.png)
+
+## 10、-XX:+UseCMSCompactAtFullCollection（不成功）
+-XX:CMSFullGCsBeforeCompaction=0
+参数介绍： <br>
+CMSFullGCsBeforeCompaction 是在上一次CMS并发GC执行过后，到底还要再执行多少次full GC才会做压缩。默认是0，
+也就是在默认配置下，每次CMS GC顶不住了而要转入full GC的时候都会做压缩。
+把CMSFullGCsBeforeCompaction配置为10，就会让上面说的第一个条件变成每隔10次真正的full GC才做一次压缩（而不是每10次CMS并发GC就做一次压缩，目前VM里没有这样的参数）。这会使full GC更少做压缩，也就更容易使CMS的old gen受碎片化问题的困扰。
+本来这个参数就是用来配置降低full GC压缩的频率，以期减少某些full GC的暂停时间。CMS回退到full GC时用的算法是mark-sweep-compact，
+但compaction是可选的，不做的话碎片化会严重些但这次full GC的暂停时间会短些；这是个取舍。
+<details>
+    <summary>调整CMSFullGCsBeforeCompaction后的日志</summary>
+
+- [aFullGCsBeforeCompaction1](cmsLog/FullGCsBeforeCompaction/aFullGCsBeforeCompaction1.log)
+- [bFullGCsBeforeCompaction2](cmsLog/FullGCsBeforeCompaction/bFullGCsBeforeCompaction2.log)
+- [cFullGCsBeforeCompaction3](cmsLog/FullGCsBeforeCompaction/cFullGCsBeforeCompaction3.log)
+- [dFullGCsBeforeCompaction4](cmsLog/FullGCsBeforeCompaction/dFullGCsBeforeCompaction4.log)
+- [eFullGCsBeforeCompaction5](cmsLog/FullGCsBeforeCompaction/eFullGCsBeforeCompaction5.log)
+- [fFullGCsBeforeCompaction6](cmsLog/FullGCsBeforeCompaction/fFullGCsBeforeCompaction6.log)
+- [gFullGCsBeforeCompaction7](cmsLog/FullGCsBeforeCompaction/gFullGCsBeforeCompaction7.log)
+- [hFullGCsBeforeCompaction8](cmsLog/FullGCsBeforeCompaction/hFullGCsBeforeCompaction8.log)
+- [iFullGCsBeforeCompaction9](cmsLog/FullGCsBeforeCompaction/iFullGCsBeforeCompaction9.log)
+- [jFullGCsBeforeCompaction10](cmsLog/FullGCsBeforeCompaction/jFullGCsBeforeCompaction10.log)
+
+</details>
+从分析结果看，该参数并未击中程序痛点
+![img_15.png](img_15.png)
+
+
+## 结论
+最终的参数为下面参数
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx896M
+-Xloggc:./gc.log
+-XX:NewSize=768m
+-XX:MaxNewSize=768m
+-XX:ConcGCThreads=2
+-XX:+CMSParallelInitialMarkEnabled
+-XX:+CMSParallelRemarkEnabled
+-XX:+CMSScavengeBeforeRemark
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+得到是[调优日志](cmsLog/finall/optimization.log)和[不调优日志](cmsLog/finall/Xmx896M.log)
+使用程序进行分析得到下图：
+![img_16.png](img_16.png)
+程序性能提升：
+
+| 指标               | 趋势描述                    |
+|------------------|-------------------------|
+| CMS GC事件数量  | 14次 -> 9次               |
+|ParNew GC事件数量| 63次 -> 14次              |
+|程序暂停次数| 92次 -> 33次              |
+| 平均暂停时间         | 平均暂停时间增多                |
+| 最大暂停时间         | 最大暂停时间增加                |
+| 吞吐量             | 89.37% -> 95.78%        |
+| 程序总暂停时间        | 1395.031ms -> 519.536ms |
