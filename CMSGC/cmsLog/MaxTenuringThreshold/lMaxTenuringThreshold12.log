@@ -1,0 +1,1167 @@
+OpenJDK 64-Bit Server VM (25.412-b1) for windows-amd64 JRE (1.8.0_412-b1), built on Apr 23 2024 12:00:37 by "Administrator" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16672068k(5311520k free), swap 20603488k(4061992k free)
+CommandLine flags: -XX:GCDrainStackTargetSize=64 -XX:InitialHeapSize=266753088 -XX:MaxHeapSize=939524096 -XX:MaxNewSize=313176064 -XX:MaxTenuringThreshold=12 -XX:OldPLABSize=16 -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
+2024-07-28T16:43:05.285+0800: 0.107: Application time: 0.0357815 seconds
+2024-07-28T16:43:05.285+0800: 0.107: [GC (Allocation Failure) 2024-07-28T16:43:05.285+0800: 0.107: [ParNew: 68984K->7892K(78656K), 0.0402459 secs] 68984K->68311K(253440K), 0.0404214 secs] [Times: user=0.06 sys=0.02, real=0.04 secs] 
+2024-07-28T16:43:05.326+0800: 0.147: Total time for which application threads were stopped: 0.0405577 seconds, Stopping threads took: 0.0000201 seconds
+2024-07-28T16:43:05.444+0800: 0.265: Application time: 0.1181599 seconds
+2024-07-28T16:43:05.444+0800: 0.265: [GC (Allocation Failure) 2024-07-28T16:43:05.444+0800: 0.265: [ParNew: 76862K->8592K(78656K), 0.0251961 secs] 137281K->137243K(253440K), 0.0252526 secs] [Times: user=0.03 sys=0.02, real=0.03 secs] 
+2024-07-28T16:43:05.469+0800: 0.291: Total time for which application threads were stopped: 0.0253655 seconds, Stopping threads took: 0.0000203 seconds
+2024-07-28T16:43:05.470+0800: 0.291: Application time: 0.0002567 seconds
+2024-07-28T16:43:05.470+0800: 0.291: [GC (CMS Initial Mark) [1 CMS-initial-mark: 128651K(174784K)] 140670K(253440K), 0.0007860 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.470+0800: 0.292: Total time for which application threads were stopped: 0.0009347 seconds, Stopping threads took: 0.0001020 seconds
+2024-07-28T16:43:05.471+0800: 0.292: [CMS-concurrent-mark-start]
+2024-07-28T16:43:05.474+0800: 0.295: [CMS-concurrent-mark: 0.003/0.003 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.474+0800: 0.295: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:05.474+0800: 0.296: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.474+0800: 0.296: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:05.582+0800: 0.403: Application time: 0.1109895 seconds
+2024-07-28T16:43:05.582+0800: 0.403: [GC (Allocation Failure) 2024-07-28T16:43:05.582+0800: 0.403: [ParNew: 77556K->28K(78656K), 0.0010654 secs] 206207K->128681K(253440K), 0.0011122 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.583+0800: 0.404: Total time for which application threads were stopped: 0.0012236 seconds, Stopping threads took: 0.0000237 seconds
+2024-07-28T16:43:05.587+0800: 0.409: Application time: 0.0044304 seconds
+2024-07-28T16:43:05.587+0800: 0.409: [GC (Allocation Failure) 2024-07-28T16:43:05.587+0800: 0.409: [ParNew: 68997K->8196K(78656K), 0.0278843 secs] 197650K->197266K(268860K), 0.0279312 secs] [Times: user=0.05 sys=0.03, real=0.03 secs] 
+2024-07-28T16:43:05.615+0800: 0.437: Total time for which application threads were stopped: 0.0280310 seconds, Stopping threads took: 0.0000187 seconds
+2024-07-28T16:43:05.724+0800: 0.546: Application time: 0.1091757 seconds
+2024-07-28T16:43:05.725+0800: 0.546: [GC (Allocation Failure) 2024-07-28T16:43:05.725+0800: 0.546: [ParNew: 77168K->8192K(78656K), 0.0253968 secs] 266238K->265872K(337736K), 0.0254559 secs] [Times: user=0.03 sys=0.01, real=0.03 secs] 
+2024-07-28T16:43:05.750+0800: 0.571: Total time for which application threads were stopped: 0.0255850 seconds, Stopping threads took: 0.0000197 seconds
+2024-07-28T16:43:05.750+0800: 0.571: [CMS-concurrent-abortable-preclean: 0.004/0.276 secs] [Times: user=0.13 sys=0.05, real=0.28 secs] 
+2024-07-28T16:43:05.750+0800: 0.572: Application time: 0.0003289 seconds
+2024-07-28T16:43:05.751+0800: 0.572: [GC (CMS Final Remark) [YG occupancy: 12652 K (78656 K)]2024-07-28T16:43:05.751+0800: 0.572: [Rescan (parallel) , 0.0006423 secs]2024-07-28T16:43:05.751+0800: 0.573: [weak refs processing, 0.0000230 secs]2024-07-28T16:43:05.751+0800: 0.573: [class unloading, 0.0001872 secs]2024-07-28T16:43:05.752+0800: 0.573: [scrub symbol table, 0.0003422 secs]2024-07-28T16:43:05.752+0800: 0.573: [scrub string table, 0.0001002 secs][1 CMS-remark: 257680K(259080K)] 270332K(337736K), 0.0014254 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.752+0800: 0.573: Total time for which application threads were stopped: 0.0015991 seconds, Stopping threads took: 0.0001367 seconds
+2024-07-28T16:43:05.752+0800: 0.574: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:05.754+0800: 0.575: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.755+0800: 0.576: [CMS-concurrent-reset-start]
+2024-07-28T16:43:05.759+0800: 0.580: [CMS-concurrent-reset: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.863+0800: 0.684: Application time: 0.1110021 seconds
+2024-07-28T16:43:05.863+0800: 0.684: [GC (Allocation Failure) 2024-07-28T16:43:05.863+0800: 0.684: [ParNew: 77165K->1024K(78656K), 0.0011383 secs] 334844K->258703K(508124K), 0.0012089 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.865+0800: 0.686: Total time for which application threads were stopped: 0.0013345 seconds, Stopping threads took: 0.0000238 seconds
+2024-07-28T16:43:05.865+0800: 0.686: Application time: 0.0001514 seconds
+2024-07-28T16:43:05.865+0800: 0.686: [GC (CMS Initial Mark) [1 CMS-initial-mark: 257679K(429468K)] 262140K(508124K), 0.0008953 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.866+0800: 0.687: Total time for which application threads were stopped: 0.0010975 seconds, Stopping threads took: 0.0001540 seconds
+2024-07-28T16:43:05.866+0800: 0.687: [CMS-concurrent-mark-start]
+2024-07-28T16:43:05.869+0800: 0.691: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.870+0800: 0.691: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:05.871+0800: 0.692: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:05.871+0800: 0.692: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:05.871+0800: 0.692: Application time: 0.0053393 seconds
+2024-07-28T16:43:05.871+0800: 0.692: [GC (Allocation Failure) 2024-07-28T16:43:05.871+0800: 0.692: [ParNew: 69998K->8192K(78656K), 0.0366571 secs] 327677K->327312K(508124K), 0.0367024 secs] [Times: user=0.05 sys=0.02, real=0.04 secs] 
+2024-07-28T16:43:05.908+0800: 0.729: Total time for which application threads were stopped: 0.0368023 seconds, Stopping threads took: 0.0000165 seconds
+2024-07-28T16:43:06.021+0800: 0.841: Application time: 0.1123031 seconds
+2024-07-28T16:43:06.021+0800: 0.841: [GC (Allocation Failure) 2024-07-28T16:43:06.021+0800: 0.841: [ParNew: 77167K->8192K(78656K), 0.0370273 secs] 396287K->395921K(508124K), 0.0370852 secs] [Times: user=0.05 sys=0.02, real=0.04 secs] 
+2024-07-28T16:43:06.058+0800: 0.879: Total time for which application threads were stopped: 0.0371940 seconds, Stopping threads took: 0.0000185 seconds
+2024-07-28T16:43:06.058+0800: 0.879: [CMS-concurrent-abortable-preclean: 0.003/0.187 secs] [Times: user=0.11 sys=0.03, real=0.19 secs] 
+2024-07-28T16:43:06.058+0800: 0.879: Application time: 0.0003094 seconds
+2024-07-28T16:43:06.058+0800: 0.879: [GC (CMS Final Remark) [YG occupancy: 12654 K (78656 K)]2024-07-28T16:43:06.058+0800: 0.879: [Rescan (parallel) , 0.0009563 secs]2024-07-28T16:43:06.059+0800: 0.880: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:06.059+0800: 0.880: [class unloading, 0.0001784 secs]2024-07-28T16:43:06.059+0800: 0.880: [scrub symbol table, 0.0003507 secs]2024-07-28T16:43:06.060+0800: 0.881: [scrub string table, 0.0000999 secs][1 CMS-remark: 387729K(429468K)] 400384K(508124K), 0.0016682 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.060+0800: 0.881: Total time for which application threads were stopped: 0.0018467 seconds, Stopping threads took: 0.0001236 seconds
+2024-07-28T16:43:06.060+0800: 0.881: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:06.062+0800: 0.883: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.062+0800: 0.883: [CMS-concurrent-reset-start]
+2024-07-28T16:43:06.063+0800: 0.884: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.178+0800: 0.999: Application time: 0.1178872 seconds
+2024-07-28T16:43:06.178+0800: 0.999: [GC (Allocation Failure) 2024-07-28T16:43:06.178+0800: 0.999: [ParNew: 77167K->2048K(78656K), 0.0013091 secs] 207869K->132749K(508124K), 0.0013640 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.179+0800: 1.000: Total time for which application threads were stopped: 0.0014737 seconds, Stopping threads took: 0.0000188 seconds
+2024-07-28T16:43:06.184+0800: 1.004: Application time: 0.0043543 seconds
+2024-07-28T16:43:06.184+0800: 1.004: [GC (Allocation Failure) 2024-07-28T16:43:06.184+0800: 1.004: [ParNew: 71024K->8192K(78656K), 0.0266439 secs] 201725K->201358K(508124K), 0.0266928 secs] [Times: user=0.05 sys=0.02, real=0.03 secs] 
+2024-07-28T16:43:06.210+0800: 1.031: Total time for which application threads were stopped: 0.0267966 seconds, Stopping threads took: 0.0000157 seconds
+2024-07-28T16:43:06.211+0800: 1.031: Application time: 0.0002358 seconds
+2024-07-28T16:43:06.211+0800: 1.032: [GC (CMS Initial Mark) [1 CMS-initial-mark: 193166K(429468K)] 204797K(508124K), 0.0007850 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.212+0800: 1.032: Total time for which application threads were stopped: 0.0009937 seconds, Stopping threads took: 0.0001650 seconds
+2024-07-28T16:43:06.212+0800: 1.033: [CMS-concurrent-mark-start]
+2024-07-28T16:43:06.214+0800: 1.035: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.214+0800: 1.035: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:06.215+0800: 1.035: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.215+0800: 1.035: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:06.321+0800: 1.142: Application time: 0.1090782 seconds
+2024-07-28T16:43:06.321+0800: 1.142: [GC (Allocation Failure) 2024-07-28T16:43:06.321+0800: 1.142: [ParNew: 77168K->8192K(78656K), 0.0117627 secs] 270334K->269967K(508124K), 0.0118233 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:06.333+0800: 1.153: Total time for which application threads were stopped: 0.0119371 seconds, Stopping threads took: 0.0000191 seconds
+2024-07-28T16:43:06.444+0800: 1.266: Application time: 0.1123102 seconds
+2024-07-28T16:43:06.445+0800: 1.266: [GC (Allocation Failure) 2024-07-28T16:43:06.445+0800: 1.266: [ParNew: 77168K->3072K(78656K), 0.0025722 secs] 338943K->264847K(508124K), 0.0026415 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.447+0800: 1.269: Total time for which application threads were stopped: 0.0027819 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:06.452+0800: 1.273: Application time: 0.0044702 seconds
+2024-07-28T16:43:06.452+0800: 1.273: [GC (Allocation Failure) 2024-07-28T16:43:06.452+0800: 1.273: [ParNew: 72048K->8192K(78656K), 0.0111857 secs] 333823K->333456K(508124K), 0.0112344 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:06.463+0800: 1.284: Total time for which application threads were stopped: 0.0113477 seconds, Stopping threads took: 0.0000284 seconds
+2024-07-28T16:43:06.463+0800: 1.284: [CMS-concurrent-abortable-preclean: 0.005/0.249 secs] [Times: user=0.03 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:06.463+0800: 1.285: Application time: 0.0003505 seconds
+2024-07-28T16:43:06.463+0800: 1.285: [GC (CMS Final Remark) [YG occupancy: 13679 K (78656 K)]2024-07-28T16:43:06.463+0800: 1.285: [Rescan (parallel) , 0.0008081 secs]2024-07-28T16:43:06.464+0800: 1.286: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:06.464+0800: 1.286: [class unloading, 0.0001810 secs]2024-07-28T16:43:06.464+0800: 1.286: [scrub symbol table, 0.0003490 secs]2024-07-28T16:43:06.465+0800: 1.286: [scrub string table, 0.0001008 secs][1 CMS-remark: 325264K(429468K)] 338944K(508124K), 0.0015173 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.465+0800: 1.286: Total time for which application threads were stopped: 0.0016369 seconds, Stopping threads took: 0.0000838 seconds
+2024-07-28T16:43:06.465+0800: 1.287: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:06.466+0800: 1.288: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.466+0800: 1.288: [CMS-concurrent-reset-start]
+2024-07-28T16:43:06.467+0800: 1.289: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.571+0800: 1.393: Application time: 0.1067052 seconds
+2024-07-28T16:43:06.572+0800: 1.393: [GC (Allocation Failure) 2024-07-28T16:43:06.572+0800: 1.393: [ParNew: 77168K->8192K(78656K), 0.0119129 secs] 272383K->272015K(508124K), 0.0119722 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:06.584+0800: 1.405: Total time for which application threads were stopped: 0.0120946 seconds, Stopping threads took: 0.0000197 seconds
+2024-07-28T16:43:06.584+0800: 1.405: Application time: 0.0002081 seconds
+2024-07-28T16:43:06.584+0800: 1.406: [GC (CMS Initial Mark) [1 CMS-initial-mark: 263823K(429468K)] 275455K(508124K), 0.0006224 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.585+0800: 1.406: Total time for which application threads were stopped: 0.0008262 seconds, Stopping threads took: 0.0001368 seconds
+2024-07-28T16:43:06.585+0800: 1.406: [CMS-concurrent-mark-start]
+2024-07-28T16:43:06.588+0800: 1.410: [CMS-concurrent-mark: 0.003/0.003 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.588+0800: 1.410: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:06.589+0800: 1.411: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.589+0800: 1.411: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:06.695+0800: 1.516: Application time: 0.1097191 seconds
+2024-07-28T16:43:06.695+0800: 1.516: [GC (Allocation Failure) 2024-07-28T16:43:06.695+0800: 1.516: [ParNew: 77168K->4096K(78656K), 0.0019550 secs] 340992K->267919K(508124K), 0.0020068 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.697+0800: 1.518: Total time for which application threads were stopped: 0.0021194 seconds, Stopping threads took: 0.0000226 seconds
+2024-07-28T16:43:06.701+0800: 1.523: Application time: 0.0044438 seconds
+2024-07-28T16:43:06.701+0800: 1.523: [GC (Allocation Failure) 2024-07-28T16:43:06.701+0800: 1.523: [ParNew: 73072K->8192K(78656K), 0.0113058 secs] 336896K->336528K(508124K), 0.0113524 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:06.713+0800: 1.534: Total time for which application threads were stopped: 0.0114497 seconds, Stopping threads took: 0.0000144 seconds
+2024-07-28T16:43:06.822+0800: 1.643: Application time: 0.1089142 seconds
+2024-07-28T16:43:06.822+0800: 1.643: [GC (Allocation Failure) 2024-07-28T16:43:06.822+0800: 1.643: [ParNew: 77168K->8192K(78656K), 0.0118543 secs] 405505K->405137K(508124K), 0.0119099 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:06.834+0800: 1.655: Total time for which application threads were stopped: 0.0120272 seconds, Stopping threads took: 0.0000190 seconds
+2024-07-28T16:43:06.834+0800: 1.655: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:06.834+0800: 1.655: Application time: 0.0002893 seconds
+2024-07-28T16:43:06.834+0800: 1.655: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:06.834+0800: 1.655: [Rescan (parallel) , 0.0007588 secs]2024-07-28T16:43:06.835+0800: 1.656: [weak refs processing, 0.0000583 secs]2024-07-28T16:43:06.835+0800: 1.656: [class unloading, 0.0001933 secs]2024-07-28T16:43:06.835+0800: 1.656: [scrub symbol table, 0.0003476 secs]2024-07-28T16:43:06.836+0800: 1.657: [scrub string table, 0.0001024 secs][1 CMS-remark: 396945K(429468K)] 409601K(508124K), 0.0015294 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.836+0800: 1.657: Total time for which application threads were stopped: 0.0017344 seconds, Stopping threads took: 0.0001646 seconds
+2024-07-28T16:43:06.836+0800: 1.657: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:06.837+0800: 1.659: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.838+0800: 1.659: [CMS-concurrent-reset-start]
+2024-07-28T16:43:06.839+0800: 1.660: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.945+0800: 1.766: Application time: 0.1087544 seconds
+2024-07-28T16:43:06.945+0800: 1.766: [GC (Allocation Failure) 2024-07-28T16:43:06.945+0800: 1.766: [ParNew: 77168K->5120K(78656K), 0.0019648 secs] 343040K->270991K(521776K), 0.0020197 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.947+0800: 1.768: Total time for which application threads were stopped: 0.0021313 seconds, Stopping threads took: 0.0000203 seconds
+2024-07-28T16:43:06.947+0800: 1.768: Application time: 0.0002100 seconds
+2024-07-28T16:43:06.947+0800: 1.768: [GC (CMS Initial Mark) [1 CMS-initial-mark: 265871K(443120K)] 274431K(521776K), 0.0007165 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.948+0800: 1.769: Total time for which application threads were stopped: 0.0008593 seconds, Stopping threads took: 0.0001026 seconds
+2024-07-28T16:43:06.948+0800: 1.769: [CMS-concurrent-mark-start]
+2024-07-28T16:43:06.951+0800: 1.772: [CMS-concurrent-mark: 0.003/0.003 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.951+0800: 1.772: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:06.952+0800: 1.774: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:06.952+0800: 1.774: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:06.953+0800: 1.774: Application time: 0.0051221 seconds
+2024-07-28T16:43:06.953+0800: 1.774: [GC (Allocation Failure) 2024-07-28T16:43:06.953+0800: 1.774: [ParNew: 74096K->8192K(78656K), 0.0113338 secs] 339968K->339600K(521776K), 0.0113824 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:06.964+0800: 1.786: Total time for which application threads were stopped: 0.0114837 seconds, Stopping threads took: 0.0000133 seconds
+2024-07-28T16:43:07.072+0800: 1.893: Application time: 0.1078574 seconds
+2024-07-28T16:43:07.072+0800: 1.893: [GC (Allocation Failure) 2024-07-28T16:43:07.072+0800: 1.893: [ParNew: 77168K->8192K(78656K), 0.0119163 secs] 408577K->408209K(521776K), 0.0119747 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:07.084+0800: 1.905: Total time for which application threads were stopped: 0.0120885 seconds, Stopping threads took: 0.0000227 seconds
+2024-07-28T16:43:07.084+0800: 1.906: [CMS-concurrent-abortable-preclean: 0.003/0.132 secs] [Times: user=0.06 sys=0.00, real=0.13 secs] 
+2024-07-28T16:43:07.084+0800: 1.906: Application time: 0.0002976 seconds
+2024-07-28T16:43:07.084+0800: 1.906: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:07.084+0800: 1.906: [Rescan (parallel) , 0.0007037 secs]2024-07-28T16:43:07.085+0800: 1.907: [weak refs processing, 0.0000132 secs]2024-07-28T16:43:07.085+0800: 1.907: [class unloading, 0.0001785 secs]2024-07-28T16:43:07.085+0800: 1.907: [scrub symbol table, 0.0003675 secs]2024-07-28T16:43:07.086+0800: 1.907: [scrub string table, 0.0001150 secs][1 CMS-remark: 400017K(443120K)] 412673K(521776K), 0.0014511 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.086+0800: 1.907: Total time for which application threads were stopped: 0.0015548 seconds, Stopping threads took: 0.0000511 seconds
+2024-07-28T16:43:07.086+0800: 1.908: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:07.088+0800: 1.909: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.088+0800: 1.910: [CMS-concurrent-reset-start]
+2024-07-28T16:43:07.089+0800: 1.911: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.195+0800: 2.016: Application time: 0.1084863 seconds
+2024-07-28T16:43:07.195+0800: 2.016: [GC (Allocation Failure) 2024-07-28T16:43:07.195+0800: 2.016: [ParNew: 77168K->6144K(78656K), 0.0019484 secs] 211966K->140941K(521776K), 0.0020037 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.197+0800: 2.018: Total time for which application threads were stopped: 0.0021293 seconds, Stopping threads took: 0.0000203 seconds
+2024-07-28T16:43:07.201+0800: 2.022: Application time: 0.0043868 seconds
+2024-07-28T16:43:07.201+0800: 2.022: [GC (Allocation Failure) 2024-07-28T16:43:07.201+0800: 2.022: [ParNew: 75120K->8192K(78656K), 0.0172107 secs] 209918K->209550K(521776K), 0.0172595 secs] [Times: user=0.01 sys=0.02, real=0.02 secs] 
+2024-07-28T16:43:07.218+0800: 2.040: Total time for which application threads were stopped: 0.0173702 seconds, Stopping threads took: 0.0000150 seconds
+2024-07-28T16:43:07.219+0800: 2.040: Application time: 0.0001621 seconds
+2024-07-28T16:43:07.219+0800: 2.040: [GC (CMS Initial Mark) [1 CMS-initial-mark: 201358K(443120K)] 212990K(521776K), 0.0007452 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.220+0800: 2.041: Total time for which application threads were stopped: 0.0009599 seconds, Stopping threads took: 0.0001716 seconds
+2024-07-28T16:43:07.220+0800: 2.041: [CMS-concurrent-mark-start]
+2024-07-28T16:43:07.222+0800: 2.043: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.222+0800: 2.043: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:07.222+0800: 2.043: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.222+0800: 2.044: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:07.338+0800: 2.159: Application time: 0.1185452 seconds
+2024-07-28T16:43:07.338+0800: 2.159: [GC (Allocation Failure) 2024-07-28T16:43:07.338+0800: 2.159: [ParNew: 77168K->8192K(78656K), 0.0125760 secs] 278527K->278159K(521776K), 0.0126618 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:07.351+0800: 2.172: Total time for which application threads were stopped: 0.0127962 seconds, Stopping threads took: 0.0000200 seconds
+2024-07-28T16:43:07.461+0800: 2.283: Application time: 0.1105006 seconds
+2024-07-28T16:43:07.461+0800: 2.283: [GC (Allocation Failure) 2024-07-28T16:43:07.461+0800: 2.283: [ParNew: 77168K->7168K(78656K), 0.0023970 secs] 347136K->277135K(521776K), 0.0024523 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.464+0800: 2.285: Total time for which application threads were stopped: 0.0025569 seconds, Stopping threads took: 0.0000192 seconds
+2024-07-28T16:43:07.468+0800: 2.290: Application time: 0.0044407 seconds
+2024-07-28T16:43:07.468+0800: 2.290: [GC (Allocation Failure) 2024-07-28T16:43:07.468+0800: 2.290: [ParNew: 76144K->8192K(78656K), 0.0117947 secs] 346112K->345744K(521776K), 0.0118419 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:07.480+0800: 2.302: Total time for which application threads were stopped: 0.0119423 seconds, Stopping threads took: 0.0000141 seconds
+2024-07-28T16:43:07.480+0800: 2.302: [CMS-concurrent-abortable-preclean: 0.005/0.258 secs] [Times: user=0.08 sys=0.00, real=0.26 secs] 
+2024-07-28T16:43:07.481+0800: 2.302: Application time: 0.0002998 seconds
+2024-07-28T16:43:07.481+0800: 2.302: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:07.481+0800: 2.302: [Rescan (parallel) , 0.0008227 secs]2024-07-28T16:43:07.482+0800: 2.303: [weak refs processing, 0.0000129 secs]2024-07-28T16:43:07.482+0800: 2.303: [class unloading, 0.0001999 secs]2024-07-28T16:43:07.482+0800: 2.303: [scrub symbol table, 0.0003539 secs]2024-07-28T16:43:07.482+0800: 2.303: [scrub string table, 0.0001011 secs][1 CMS-remark: 337552K(443120K)] 350208K(521776K), 0.0015580 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.482+0800: 2.304: Total time for which application threads were stopped: 0.0017003 seconds, Stopping threads took: 0.0001033 seconds
+2024-07-28T16:43:07.482+0800: 2.304: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:07.484+0800: 2.305: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.484+0800: 2.305: [CMS-concurrent-reset-start]
+2024-07-28T16:43:07.484+0800: 2.306: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.590+0800: 2.411: Application time: 0.1076467 seconds
+2024-07-28T16:43:07.590+0800: 2.411: [GC (Allocation Failure) 2024-07-28T16:43:07.590+0800: 2.411: [ParNew: 77168K->8192K(78656K), 0.0121114 secs] 280575K->280207K(521776K), 0.0121702 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:07.602+0800: 2.424: Total time for which application threads were stopped: 0.0122838 seconds, Stopping threads took: 0.0000195 seconds
+2024-07-28T16:43:07.603+0800: 2.424: Application time: 0.0001933 seconds
+2024-07-28T16:43:07.603+0800: 2.424: [GC (CMS Initial Mark) [1 CMS-initial-mark: 272015K(443120K)] 283647K(521776K), 0.0008120 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.604+0800: 2.425: Total time for which application threads were stopped: 0.0009937 seconds, Stopping threads took: 0.0001384 seconds
+2024-07-28T16:43:07.604+0800: 2.425: [CMS-concurrent-mark-start]
+2024-07-28T16:43:07.608+0800: 2.429: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.608+0800: 2.429: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:07.608+0800: 2.430: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.609+0800: 2.430: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:07.713+0800: 2.534: Application time: 0.1096841 seconds
+2024-07-28T16:43:07.713+0800: 2.535: [GC (Allocation Failure) 2024-07-28T16:43:07.713+0800: 2.535: [ParNew: 77168K->8192K(78656K), 0.0022010 secs] 349184K->280207K(521776K), 0.0022527 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.715+0800: 2.537: Total time for which application threads were stopped: 0.0023687 seconds, Stopping threads took: 0.0000199 seconds
+2024-07-28T16:43:07.720+0800: 2.541: Application time: 0.0044813 seconds
+2024-07-28T16:43:07.720+0800: 2.541: [GC (Allocation Failure) 2024-07-28T16:43:07.720+0800: 2.541: [ParNew: 77168K->8192K(78656K), 0.0121668 secs] 349184K->348816K(521776K), 0.0122147 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:07.732+0800: 2.554: Total time for which application threads were stopped: 0.0123116 seconds, Stopping threads took: 0.0000144 seconds
+2024-07-28T16:43:07.840+0800: 2.662: Application time: 0.1082122 seconds
+2024-07-28T16:43:07.840+0800: 2.662: [GC (Allocation Failure) 2024-07-28T16:43:07.840+0800: 2.662: [ParNew: 77168K->8192K(78656K), 0.0119982 secs] 417793K->417425K(521776K), 0.0120579 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:07.853+0800: 2.674: Total time for which application threads were stopped: 0.0122084 seconds, Stopping threads took: 0.0000186 seconds
+2024-07-28T16:43:07.963+0800: 2.784: Application time: 0.1103827 seconds
+2024-07-28T16:43:07.963+0800: 2.784: [GC (Allocation Failure) 2024-07-28T16:43:07.963+0800: 2.785: [ParNew: 77168K->8192K(78656K), 0.0025745 secs] 486402K->418449K(521776K), 0.0026287 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.965+0800: 2.787: Total time for which application threads were stopped: 0.0027375 seconds, Stopping threads took: 0.0000201 seconds
+2024-07-28T16:43:07.966+0800: 2.787: [CMS-concurrent-abortable-preclean: 0.008/0.357 secs] [Times: user=0.06 sys=0.00, real=0.36 secs] 
+2024-07-28T16:43:07.966+0800: 2.788: Application time: 0.0003321 seconds
+2024-07-28T16:43:07.966+0800: 2.788: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:07.966+0800: 2.788: [Rescan (parallel) , 0.0009813 secs]2024-07-28T16:43:07.967+0800: 2.789: [weak refs processing, 0.0000133 secs]2024-07-28T16:43:07.967+0800: 2.789: [class unloading, 0.0001811 secs]2024-07-28T16:43:07.967+0800: 2.789: [scrub symbol table, 0.0003075 secs]2024-07-28T16:43:07.967+0800: 2.789: [scrub string table, 0.0000907 secs][1 CMS-remark: 410257K(443120K)] 422913K(521776K), 0.0016389 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.968+0800: 2.789: Total time for which application threads were stopped: 0.0017282 seconds, Stopping threads took: 0.0000489 seconds
+2024-07-28T16:43:07.968+0800: 2.789: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:07.970+0800: 2.791: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.970+0800: 2.791: [CMS-concurrent-reset-start]
+2024-07-28T16:43:07.972+0800: 2.792: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.972+0800: 2.794: Application time: 0.0047949 seconds
+2024-07-28T16:43:07.972+0800: 2.794: [GC (Allocation Failure) 2024-07-28T16:43:07.972+0800: 2.794: [ParNew: 77168K->8192K(78656K), 0.0179862 secs] 352256K->351888K(537136K), 0.0180358 secs] [Times: user=0.05 sys=0.01, real=0.02 secs] 
+2024-07-28T16:43:07.990+0800: 2.812: Total time for which application threads were stopped: 0.0181316 seconds, Stopping threads took: 0.0000131 seconds
+2024-07-28T16:43:07.991+0800: 2.812: Application time: 0.0002519 seconds
+2024-07-28T16:43:07.991+0800: 2.813: [GC (CMS Initial Mark) [1 CMS-initial-mark: 343696K(458480K)] 355328K(537136K), 0.0007822 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.992+0800: 2.813: Total time for which application threads were stopped: 0.0009529 seconds, Stopping threads took: 0.0001274 seconds
+2024-07-28T16:43:07.992+0800: 2.813: [CMS-concurrent-mark-start]
+2024-07-28T16:43:07.994+0800: 2.816: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.994+0800: 2.816: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:07.995+0800: 2.816: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:07.995+0800: 2.816: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:08.107+0800: 2.928: Application time: 0.1147361 seconds
+2024-07-28T16:43:08.107+0800: 2.928: [GC (Allocation Failure) 2024-07-28T16:43:08.107+0800: 2.928: [ParNew: 77168K->8192K(78656K), 0.0125276 secs] 420865K->420497K(537136K), 0.0125881 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.120+0800: 2.941: Total time for which application threads were stopped: 0.0126979 seconds, Stopping threads took: 0.0000199 seconds
+2024-07-28T16:43:08.230+0800: 3.052: Application time: 0.1107852 seconds
+2024-07-28T16:43:08.230+0800: 3.052: [GC (Allocation Failure) 2024-07-28T16:43:08.230+0800: 3.052: [ParNew: 77168K->8192K(78656K), 0.0026550 secs] 489474K->422545K(537136K), 0.0027093 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.233+0800: 3.054: Total time for which application threads were stopped: 0.0028234 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:08.233+0800: 3.055: [CMS-concurrent-abortable-preclean: 0.005/0.238 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:08.233+0800: 3.055: Application time: 0.0003013 seconds
+2024-07-28T16:43:08.233+0800: 3.055: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:08.233+0800: 3.055: [Rescan (parallel) , 0.0007607 secs]2024-07-28T16:43:08.234+0800: 3.056: [weak refs processing, 0.0000127 secs]2024-07-28T16:43:08.234+0800: 3.056: [class unloading, 0.0001759 secs]2024-07-28T16:43:08.234+0800: 3.056: [scrub symbol table, 0.0003444 secs]2024-07-28T16:43:08.235+0800: 3.056: [scrub string table, 0.0001148 secs][1 CMS-remark: 414353K(458480K)] 427009K(537136K), 0.0014794 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.235+0800: 3.056: Total time for which application threads were stopped: 0.0016022 seconds, Stopping threads took: 0.0000879 seconds
+2024-07-28T16:43:08.235+0800: 3.057: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:08.237+0800: 3.058: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.237+0800: 3.058: [CMS-concurrent-reset-start]
+2024-07-28T16:43:08.238+0800: 3.059: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.240+0800: 3.061: Application time: 0.0049004 seconds
+2024-07-28T16:43:08.240+0800: 3.061: [GC (Allocation Failure) 2024-07-28T16:43:08.240+0800: 3.061: [ParNew: 77168K->8192K(78656K), 0.0122888 secs] 218110K->217742K(537136K), 0.0123380 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.252+0800: 3.074: Total time for which application threads were stopped: 0.0124485 seconds, Stopping threads took: 0.0000136 seconds
+2024-07-28T16:43:08.252+0800: 3.074: Application time: 0.0002206 seconds
+2024-07-28T16:43:08.252+0800: 3.074: [GC (CMS Initial Mark) [1 CMS-initial-mark: 209550K(458480K)] 221182K(537136K), 0.0008168 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.253+0800: 3.075: Total time for which application threads were stopped: 0.0009463 seconds, Stopping threads took: 0.0000873 seconds
+2024-07-28T16:43:08.253+0800: 3.075: [CMS-concurrent-mark-start]
+2024-07-28T16:43:08.255+0800: 3.077: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.255+0800: 3.077: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:08.256+0800: 3.077: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.256+0800: 3.077: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:08.373+0800: 3.194: Application time: 0.1196302 seconds
+2024-07-28T16:43:08.373+0800: 3.195: [GC (Allocation Failure) 2024-07-28T16:43:08.373+0800: 3.195: [ParNew: 77168K->8192K(78656K), 0.0120104 secs] 286719K->286351K(537136K), 0.0120702 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.385+0800: 3.207: Total time for which application threads were stopped: 0.0121814 seconds, Stopping threads took: 0.0000194 seconds
+2024-07-28T16:43:08.497+0800: 3.318: Application time: 0.1113992 seconds
+2024-07-28T16:43:08.497+0800: 3.318: [GC (Allocation Failure) 2024-07-28T16:43:08.497+0800: 3.318: [ParNew: 77168K->8192K(78656K), 0.0026667 secs] 355328K->289423K(537136K), 0.0027367 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.500+0800: 3.321: Total time for which application threads were stopped: 0.0028456 seconds, Stopping threads took: 0.0000194 seconds
+2024-07-28T16:43:08.500+0800: 3.321: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:08.500+0800: 3.321: Application time: 0.0003032 seconds
+2024-07-28T16:43:08.500+0800: 3.321: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:08.501+0800: 3.321: [Rescan (parallel) , 0.0011571 secs]2024-07-28T16:43:08.502+0800: 3.323: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:08.502+0800: 3.323: [class unloading, 0.0001678 secs]2024-07-28T16:43:08.502+0800: 3.323: [scrub symbol table, 0.0003150 secs]2024-07-28T16:43:08.502+0800: 3.323: [scrub string table, 0.0001023 secs][1 CMS-remark: 281231K(458480K)] 293887K(537136K), 0.0018212 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.502+0800: 3.323: Total time for which application threads were stopped: 0.0019943 seconds, Stopping threads took: 0.0001249 seconds
+2024-07-28T16:43:08.503+0800: 3.323: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:08.504+0800: 3.324: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.504+0800: 3.325: [CMS-concurrent-reset-start]
+2024-07-28T16:43:08.505+0800: 3.326: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.507+0800: 3.328: Application time: 0.0048177 seconds
+2024-07-28T16:43:08.507+0800: 3.328: [GC (Allocation Failure) 2024-07-28T16:43:08.507+0800: 3.328: [ParNew: 77168K->8192K(78656K), 0.0121168 secs] 220158K->219790K(537136K), 0.0121760 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.519+0800: 3.340: Total time for which application threads were stopped: 0.0122702 seconds, Stopping threads took: 0.0000127 seconds
+2024-07-28T16:43:08.520+0800: 3.340: Application time: 0.0001704 seconds
+2024-07-28T16:43:08.520+0800: 3.341: [GC (CMS Initial Mark) [1 CMS-initial-mark: 211598K(458480K)] 223230K(537136K), 0.0007576 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.521+0800: 3.341: Total time for which application threads were stopped: 0.0009533 seconds, Stopping threads took: 0.0001534 seconds
+2024-07-28T16:43:08.521+0800: 3.341: [CMS-concurrent-mark-start]
+2024-07-28T16:43:08.522+0800: 3.343: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.522+0800: 3.343: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:08.523+0800: 3.344: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.523+0800: 3.344: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:08.640+0800: 3.461: Application time: 0.1199781 seconds
+2024-07-28T16:43:08.640+0800: 3.461: [GC (Allocation Failure) 2024-07-28T16:43:08.640+0800: 3.462: [ParNew: 77168K->8192K(78656K), 0.0128115 secs] 288767K->288399K(537136K), 0.0128709 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.653+0800: 3.474: Total time for which application threads were stopped: 0.0129827 seconds, Stopping threads took: 0.0000190 seconds
+2024-07-28T16:43:08.763+0800: 3.585: Application time: 0.1105514 seconds
+2024-07-28T16:43:08.763+0800: 3.585: [GC (Allocation Failure) 2024-07-28T16:43:08.763+0800: 3.585: [ParNew: 77168K->8192K(78656K), 0.0027814 secs] 357376K->292495K(537136K), 0.0028363 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.766+0800: 3.588: Total time for which application threads were stopped: 0.0029438 seconds, Stopping threads took: 0.0000188 seconds
+2024-07-28T16:43:08.766+0800: 3.588: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:08.767+0800: 3.588: Application time: 0.0003235 seconds
+2024-07-28T16:43:08.767+0800: 3.588: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:08.767+0800: 3.588: [Rescan (parallel) , 0.0009697 secs]2024-07-28T16:43:08.768+0800: 3.589: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:08.768+0800: 3.589: [class unloading, 0.0001829 secs]2024-07-28T16:43:08.768+0800: 3.590: [scrub symbol table, 0.0003396 secs]2024-07-28T16:43:08.768+0800: 3.590: [scrub string table, 0.0000995 secs][1 CMS-remark: 284303K(458480K)] 296959K(537136K), 0.0016676 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.768+0800: 3.590: Total time for which application threads were stopped: 0.0018452 seconds, Stopping threads took: 0.0001419 seconds
+2024-07-28T16:43:08.769+0800: 3.590: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:08.771+0800: 3.591: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.771+0800: 3.591: [CMS-concurrent-reset-start]
+2024-07-28T16:43:08.772+0800: 3.593: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.774+0800: 3.595: Application time: 0.0047847 seconds
+2024-07-28T16:43:08.774+0800: 3.595: [GC (Allocation Failure) 2024-07-28T16:43:08.774+0800: 3.595: [ParNew: 77168K->8192K(78656K), 0.0120706 secs] 222206K->221838K(537136K), 0.0121167 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.785+0800: 3.607: Total time for which application threads were stopped: 0.0122102 seconds, Stopping threads took: 0.0000120 seconds
+2024-07-28T16:43:08.786+0800: 3.607: Application time: 0.0001801 seconds
+2024-07-28T16:43:08.786+0800: 3.607: [GC (CMS Initial Mark) [1 CMS-initial-mark: 213646K(458480K)] 225278K(537136K), 0.0007323 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.786+0800: 3.608: Total time for which application threads were stopped: 0.0009067 seconds, Stopping threads took: 0.0001294 seconds
+2024-07-28T16:43:08.787+0800: 3.608: [CMS-concurrent-mark-start]
+2024-07-28T16:43:08.788+0800: 3.610: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.789+0800: 3.610: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:08.789+0800: 3.611: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:08.789+0800: 3.611: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:08.906+0800: 3.727: Application time: 0.1191195 seconds
+2024-07-28T16:43:08.906+0800: 3.727: [GC (Allocation Failure) 2024-07-28T16:43:08.906+0800: 3.727: [ParNew: 77168K->8192K(78656K), 0.0119886 secs] 290815K->290447K(537136K), 0.0120481 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:08.918+0800: 3.739: Total time for which application threads were stopped: 0.0121605 seconds, Stopping threads took: 0.0000212 seconds
+2024-07-28T16:43:09.031+0800: 3.852: Application time: 0.1125326 seconds
+2024-07-28T16:43:09.031+0800: 3.852: [GC (Allocation Failure) 2024-07-28T16:43:09.031+0800: 3.852: [ParNew: 77168K->8192K(78656K), 0.0028655 secs] 359424K->295567K(537136K), 0.0029190 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.034+0800: 3.855: Total time for which application threads were stopped: 0.0030307 seconds, Stopping threads took: 0.0000198 seconds
+2024-07-28T16:43:09.034+0800: 3.855: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:09.035+0800: 3.855: Application time: 0.0002992 seconds
+2024-07-28T16:43:09.035+0800: 3.856: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:09.035+0800: 3.856: [Rescan (parallel) , 0.0007844 secs]2024-07-28T16:43:09.036+0800: 3.856: [weak refs processing, 0.0000125 secs]2024-07-28T16:43:09.036+0800: 3.856: [class unloading, 0.0001887 secs]2024-07-28T16:43:09.036+0800: 3.857: [scrub symbol table, 0.0003411 secs]2024-07-28T16:43:09.036+0800: 3.857: [scrub string table, 0.0000992 secs][1 CMS-remark: 287375K(458480K)] 300031K(537136K), 0.0014885 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.036+0800: 3.857: Total time for which application threads were stopped: 0.0017075 seconds, Stopping threads took: 0.0001839 seconds
+2024-07-28T16:43:09.036+0800: 3.857: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:09.038+0800: 3.859: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.038+0800: 3.859: [CMS-concurrent-reset-start]
+2024-07-28T16:43:09.039+0800: 3.860: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.041+0800: 3.862: Application time: 0.0048740 seconds
+2024-07-28T16:43:09.041+0800: 3.862: [GC (Allocation Failure) 2024-07-28T16:43:09.041+0800: 3.862: [ParNew: 77168K->8192K(78656K), 0.0119419 secs] 224254K->223886K(537136K), 0.0119906 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.053+0800: 3.874: Total time for which application threads were stopped: 0.0120879 seconds, Stopping threads took: 0.0000139 seconds
+2024-07-28T16:43:09.053+0800: 3.874: Application time: 0.0002297 seconds
+2024-07-28T16:43:09.054+0800: 3.874: [GC (CMS Initial Mark) [1 CMS-initial-mark: 215694K(458480K)] 227326K(537136K), 0.0007253 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.054+0800: 3.875: Total time for which application threads were stopped: 0.0008430 seconds, Stopping threads took: 0.0000768 seconds
+2024-07-28T16:43:09.054+0800: 3.875: [CMS-concurrent-mark-start]
+2024-07-28T16:43:09.056+0800: 3.877: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.056+0800: 3.877: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:09.057+0800: 3.878: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.057+0800: 3.878: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:09.174+0800: 3.995: Application time: 0.1201205 seconds
+2024-07-28T16:43:09.174+0800: 3.995: [GC (Allocation Failure) 2024-07-28T16:43:09.174+0800: 3.995: [ParNew: 77168K->8192K(78656K), 0.0118253 secs] 292863K->292495K(537136K), 0.0118843 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.186+0800: 4.007: Total time for which application threads were stopped: 0.0119960 seconds, Stopping threads took: 0.0000204 seconds
+2024-07-28T16:43:09.297+0800: 4.118: Application time: 0.1105608 seconds
+2024-07-28T16:43:09.297+0800: 4.118: Total time for which application threads were stopped: 0.0002271 seconds, Stopping threads took: 0.0001657 seconds
+2024-07-28T16:43:09.297+0800: 4.119: Application time: 0.0010481 seconds
+2024-07-28T16:43:09.297+0800: 4.119: [GC (Allocation Failure) 2024-07-28T16:43:09.298+0800: 4.119: [ParNew: 77168K->8192K(78656K), 0.0029484 secs] 361472K->298639K(537136K), 0.0030093 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.301+0800: 4.122: Total time for which application threads were stopped: 0.0031165 seconds, Stopping threads took: 0.0000145 seconds
+2024-07-28T16:43:09.301+0800: 4.122: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.03 sys=0.02, real=0.24 secs] 
+2024-07-28T16:43:09.301+0800: 4.122: Application time: 0.0001739 seconds
+2024-07-28T16:43:09.301+0800: 4.123: [GC (CMS Final Remark) [YG occupancy: 11631 K (78656 K)]2024-07-28T16:43:09.301+0800: 4.123: [Rescan (parallel) , 0.0008650 secs]2024-07-28T16:43:09.302+0800: 4.123: [weak refs processing, 0.0000130 secs]2024-07-28T16:43:09.302+0800: 4.123: [class unloading, 0.0001842 secs]2024-07-28T16:43:09.302+0800: 4.124: [scrub symbol table, 0.0003416 secs]2024-07-28T16:43:09.302+0800: 4.124: [scrub string table, 0.0001144 secs][1 CMS-remark: 290447K(458480K)] 302079K(537136K), 0.0015829 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.303+0800: 4.124: Total time for which application threads were stopped: 0.0017895 seconds, Stopping threads took: 0.0001648 seconds
+2024-07-28T16:43:09.303+0800: 4.124: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:09.304+0800: 4.126: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.304+0800: 4.126: [CMS-concurrent-reset-start]
+2024-07-28T16:43:09.305+0800: 4.127: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.308+0800: 4.129: Application time: 0.0052926 seconds
+2024-07-28T16:43:09.308+0800: 4.129: [GC (Allocation Failure) 2024-07-28T16:43:09.308+0800: 4.130: [ParNew: 77168K->8192K(78656K), 0.0120623 secs] 226302K->225934K(537136K), 0.0121105 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.320+0800: 4.142: Total time for which application threads were stopped: 0.0122111 seconds, Stopping threads took: 0.0000147 seconds
+2024-07-28T16:43:09.320+0800: 4.142: Application time: 0.0002399 seconds
+2024-07-28T16:43:09.320+0800: 4.142: [GC (CMS Initial Mark) [1 CMS-initial-mark: 217742K(458480K)] 229374K(537136K), 0.0007958 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.321+0800: 4.143: Total time for which application threads were stopped: 0.0009961 seconds, Stopping threads took: 0.0001570 seconds
+2024-07-28T16:43:09.321+0800: 4.143: [CMS-concurrent-mark-start]
+2024-07-28T16:43:09.323+0800: 4.145: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.323+0800: 4.145: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:09.324+0800: 4.145: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.324+0800: 4.145: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:09.441+0800: 4.262: Application time: 0.1190385 seconds
+2024-07-28T16:43:09.441+0800: 4.262: [GC (Allocation Failure) 2024-07-28T16:43:09.441+0800: 4.262: [ParNew: 77168K->8192K(78656K), 0.0122667 secs] 294911K->294543K(537136K), 0.0123284 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.453+0800: 4.274: Total time for which application threads were stopped: 0.0124407 seconds, Stopping threads took: 0.0000191 seconds
+2024-07-28T16:43:09.565+0800: 4.386: Application time: 0.1114997 seconds
+2024-07-28T16:43:09.565+0800: 4.386: [GC (Allocation Failure) 2024-07-28T16:43:09.565+0800: 4.386: [ParNew: 77168K->8192K(78656K), 0.0033384 secs] 363520K->301711K(537136K), 0.0034097 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.568+0800: 4.389: Total time for which application threads were stopped: 0.0035197 seconds, Stopping threads took: 0.0000201 seconds
+2024-07-28T16:43:09.568+0800: 4.389: [CMS-concurrent-abortable-preclean: 0.006/0.244 secs] [Times: user=0.06 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:09.568+0800: 4.390: Application time: 0.0002240 seconds
+2024-07-28T16:43:09.568+0800: 4.390: [GC (CMS Final Remark) [YG occupancy: 11631 K (78656 K)]2024-07-28T16:43:09.568+0800: 4.390: [Rescan (parallel) , 0.0010450 secs]2024-07-28T16:43:09.570+0800: 4.391: [weak refs processing, 0.0000132 secs]2024-07-28T16:43:09.570+0800: 4.391: [class unloading, 0.0001939 secs]2024-07-28T16:43:09.570+0800: 4.391: [scrub symbol table, 0.0003410 secs]2024-07-28T16:43:09.570+0800: 4.391: [scrub string table, 0.0001007 secs][1 CMS-remark: 293519K(458480K)] 305151K(537136K), 0.0017572 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.570+0800: 4.391: Total time for which application threads were stopped: 0.0018548 seconds, Stopping threads took: 0.0000626 seconds
+2024-07-28T16:43:09.570+0800: 4.392: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:09.572+0800: 4.393: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.572+0800: 4.393: [CMS-concurrent-reset-start]
+2024-07-28T16:43:09.573+0800: 4.395: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.575+0800: 4.396: Application time: 0.0049311 seconds
+2024-07-28T16:43:09.575+0800: 4.396: [GC (Allocation Failure) 2024-07-28T16:43:09.575+0800: 4.396: [ParNew: 77168K->8192K(78656K), 0.0122674 secs] 228350K->227982K(537136K), 0.0123282 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.588+0800: 4.409: Total time for which application threads were stopped: 0.0124293 seconds, Stopping threads took: 0.0000126 seconds
+2024-07-28T16:43:09.588+0800: 4.409: Application time: 0.0001213 seconds
+2024-07-28T16:43:09.588+0800: 4.409: [GC (CMS Initial Mark) [1 CMS-initial-mark: 219790K(458480K)] 231422K(537136K), 0.0008083 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.589+0800: 4.410: Total time for which application threads were stopped: 0.0010098 seconds, Stopping threads took: 0.0001589 seconds
+2024-07-28T16:43:09.589+0800: 4.410: [CMS-concurrent-mark-start]
+2024-07-28T16:43:09.591+0800: 4.412: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.591+0800: 4.412: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:09.591+0800: 4.412: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.591+0800: 4.412: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:09.707+0800: 4.528: Application time: 0.1184876 seconds
+2024-07-28T16:43:09.707+0800: 4.529: [GC (Allocation Failure) 2024-07-28T16:43:09.707+0800: 4.529: [ParNew: 77168K->8192K(78656K), 0.0120222 secs] 296959K->296591K(537136K), 0.0120830 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.720+0800: 4.541: Total time for which application threads were stopped: 0.0122250 seconds, Stopping threads took: 0.0000199 seconds
+2024-07-28T16:43:09.830+0800: 4.652: Application time: 0.1112638 seconds
+2024-07-28T16:43:09.830+0800: 4.652: [GC (Allocation Failure) 2024-07-28T16:43:09.830+0800: 4.652: [ParNew: 77168K->8192K(78656K), 0.0036462 secs] 365568K->304784K(537136K), 0.0037061 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.834+0800: 4.656: Total time for which application threads were stopped: 0.0038295 seconds, Stopping threads took: 0.0000320 seconds
+2024-07-28T16:43:09.834+0800: 4.656: [CMS-concurrent-abortable-preclean: 0.005/0.243 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:09.834+0800: 4.656: Application time: 0.0003181 seconds
+2024-07-28T16:43:09.835+0800: 4.656: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:09.835+0800: 4.656: [Rescan (parallel) , 0.0007816 secs]2024-07-28T16:43:09.835+0800: 4.657: [weak refs processing, 0.0000130 secs]2024-07-28T16:43:09.835+0800: 4.657: [class unloading, 0.0001789 secs]2024-07-28T16:43:09.836+0800: 4.657: [scrub symbol table, 0.0003384 secs]2024-07-28T16:43:09.836+0800: 4.658: [scrub string table, 0.0001000 secs][1 CMS-remark: 296591K(458480K)] 309247K(537136K), 0.0014800 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.836+0800: 4.658: Total time for which application threads were stopped: 0.0016008 seconds, Stopping threads took: 0.0000853 seconds
+2024-07-28T16:43:09.836+0800: 4.658: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:09.838+0800: 4.660: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.838+0800: 4.660: [CMS-concurrent-reset-start]
+2024-07-28T16:43:09.839+0800: 4.661: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.841+0800: 4.663: Application time: 0.0048902 seconds
+2024-07-28T16:43:09.841+0800: 4.663: [GC (Allocation Failure) 2024-07-28T16:43:09.841+0800: 4.663: [ParNew: 77168K->8192K(78656K), 0.0124429 secs] 230398K->230030K(537136K), 0.0124951 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.854+0800: 4.675: Total time for which application threads were stopped: 0.0125911 seconds, Stopping threads took: 0.0000128 seconds
+2024-07-28T16:43:09.854+0800: 4.675: Application time: 0.0002293 seconds
+2024-07-28T16:43:09.854+0800: 4.676: [GC (CMS Initial Mark) [1 CMS-initial-mark: 221838K(458480K)] 233470K(537136K), 0.0008693 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.855+0800: 4.676: Total time for which application threads were stopped: 0.0010517 seconds, Stopping threads took: 0.0001402 seconds
+2024-07-28T16:43:09.855+0800: 4.677: [CMS-concurrent-mark-start]
+2024-07-28T16:43:09.857+0800: 4.678: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.857+0800: 4.678: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:09.857+0800: 4.679: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:09.857+0800: 4.679: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:09.975+0800: 4.796: Application time: 0.1196250 seconds
+2024-07-28T16:43:09.975+0800: 4.796: [GC (Allocation Failure) 2024-07-28T16:43:09.975+0800: 4.796: [ParNew: 77168K->8192K(78656K), 0.0119871 secs] 299007K->298639K(537136K), 0.0120426 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:09.987+0800: 4.808: Total time for which application threads were stopped: 0.0121557 seconds, Stopping threads took: 0.0000198 seconds
+2024-07-28T16:43:10.099+0800: 4.920: Application time: 0.1113425 seconds
+2024-07-28T16:43:10.099+0800: 4.920: [GC (Allocation Failure) 2024-07-28T16:43:10.099+0800: 4.920: [ParNew: 77168K->8192K(78656K), 0.0036038 secs] 367616K->307856K(537136K), 0.0036767 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.102+0800: 4.923: Total time for which application threads were stopped: 0.0037878 seconds, Stopping threads took: 0.0000197 seconds
+2024-07-28T16:43:10.102+0800: 4.923: [CMS-concurrent-abortable-preclean: 0.005/0.245 secs] [Times: user=0.05 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:10.103+0800: 4.924: Application time: 0.0002505 seconds
+2024-07-28T16:43:10.103+0800: 4.924: [GC (CMS Final Remark) [YG occupancy: 11631 K (78656 K)]2024-07-28T16:43:10.103+0800: 4.924: [Rescan (parallel) , 0.0010404 secs]2024-07-28T16:43:10.104+0800: 4.925: [weak refs processing, 0.0000132 secs]2024-07-28T16:43:10.104+0800: 4.925: [class unloading, 0.0001826 secs]2024-07-28T16:43:10.104+0800: 4.925: [scrub symbol table, 0.0002990 secs]2024-07-28T16:43:10.104+0800: 4.925: [scrub string table, 0.0001014 secs][1 CMS-remark: 299663K(458480K)] 311295K(537136K), 0.0017014 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.104+0800: 4.926: Total time for which application threads were stopped: 0.0018512 seconds, Stopping threads took: 0.0001130 seconds
+2024-07-28T16:43:10.105+0800: 4.926: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:10.106+0800: 4.927: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.106+0800: 4.927: [CMS-concurrent-reset-start]
+2024-07-28T16:43:10.107+0800: 4.928: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.109+0800: 4.930: Application time: 0.0048190 seconds
+2024-07-28T16:43:10.109+0800: 4.930: [GC (Allocation Failure) 2024-07-28T16:43:10.109+0800: 4.930: [ParNew: 77168K->8192K(78656K), 0.0125530 secs] 232446K->232078K(537136K), 0.0126011 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.122+0800: 4.943: Total time for which application threads were stopped: 0.0126958 seconds, Stopping threads took: 0.0000126 seconds
+2024-07-28T16:43:10.122+0800: 4.943: Application time: 0.0001741 seconds
+2024-07-28T16:43:10.122+0800: 4.943: [GC (CMS Initial Mark) [1 CMS-initial-mark: 223886K(458480K)] 235518K(537136K), 0.0008692 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.123+0800: 4.944: Total time for which application threads were stopped: 0.0010643 seconds, Stopping threads took: 0.0001531 seconds
+2024-07-28T16:43:10.123+0800: 4.944: [CMS-concurrent-mark-start]
+2024-07-28T16:43:10.125+0800: 4.946: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.125+0800: 4.946: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:10.126+0800: 4.947: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.126+0800: 4.947: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:10.241+0800: 5.062: Application time: 0.1180960 seconds
+2024-07-28T16:43:10.242+0800: 5.062: [GC (Allocation Failure) 2024-07-28T16:43:10.242+0800: 5.062: [ParNew: 77168K->8192K(78656K), 0.0118880 secs] 301055K->300687K(537136K), 0.0119465 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.254+0800: 5.074: Total time for which application threads were stopped: 0.0120928 seconds, Stopping threads took: 0.0000232 seconds
+2024-07-28T16:43:10.366+0800: 5.187: Application time: 0.1120243 seconds
+2024-07-28T16:43:10.366+0800: 5.187: [GC (Allocation Failure) 2024-07-28T16:43:10.366+0800: 5.187: [ParNew: 77168K->8192K(78656K), 0.0037464 secs] 369664K->310928K(537136K), 0.0038039 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.370+0800: 5.190: Total time for which application threads were stopped: 0.0039223 seconds, Stopping threads took: 0.0000215 seconds
+2024-07-28T16:43:10.370+0800: 5.191: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.06 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:10.370+0800: 5.191: Application time: 0.0003613 seconds
+2024-07-28T16:43:10.370+0800: 5.191: [GC (CMS Final Remark) [YG occupancy: 13679 K (78656 K)]2024-07-28T16:43:10.370+0800: 5.191: [Rescan (parallel) , 0.0006943 secs]2024-07-28T16:43:10.371+0800: 5.192: [weak refs processing, 0.0000168 secs]2024-07-28T16:43:10.371+0800: 5.192: [class unloading, 0.0001914 secs]2024-07-28T16:43:10.371+0800: 5.192: [scrub symbol table, 0.0003398 secs]2024-07-28T16:43:10.371+0800: 5.192: [scrub string table, 0.0001000 secs][1 CMS-remark: 302735K(458480K)] 316415K(537136K), 0.0014066 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.371+0800: 5.192: Total time for which application threads were stopped: 0.0015714 seconds, Stopping threads took: 0.0001282 seconds
+2024-07-28T16:43:10.372+0800: 5.193: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:10.373+0800: 5.194: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.373+0800: 5.194: [CMS-concurrent-reset-start]
+2024-07-28T16:43:10.374+0800: 5.195: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.376+0800: 5.197: Application time: 0.0047678 seconds
+2024-07-28T16:43:10.376+0800: 5.197: [GC (Allocation Failure) 2024-07-28T16:43:10.376+0800: 5.197: [ParNew: 77168K->8192K(78656K), 0.0126293 secs] 234494K->234126K(537136K), 0.0126925 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.389+0800: 5.210: Total time for which application threads were stopped: 0.0127872 seconds, Stopping threads took: 0.0000122 seconds
+2024-07-28T16:43:10.389+0800: 5.210: Application time: 0.0002054 seconds
+2024-07-28T16:43:10.389+0800: 5.210: [GC (CMS Initial Mark) [1 CMS-initial-mark: 225934K(458480K)] 237566K(537136K), 0.0007683 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.390+0800: 5.211: Total time for which application threads were stopped: 0.0009413 seconds, Stopping threads took: 0.0001306 seconds
+2024-07-28T16:43:10.390+0800: 5.211: [CMS-concurrent-mark-start]
+2024-07-28T16:43:10.392+0800: 5.213: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.392+0800: 5.213: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:10.392+0800: 5.213: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.392+0800: 5.213: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:10.508+0800: 5.329: Application time: 0.1174958 seconds
+2024-07-28T16:43:10.508+0800: 5.329: [GC (Allocation Failure) 2024-07-28T16:43:10.508+0800: 5.329: [ParNew: 77168K->8192K(78656K), 0.0119859 secs] 303103K->302735K(537136K), 0.0120451 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.520+0800: 5.341: Total time for which application threads were stopped: 0.0121565 seconds, Stopping threads took: 0.0000184 seconds
+2024-07-28T16:43:10.633+0800: 5.454: Application time: 0.1130754 seconds
+2024-07-28T16:43:10.633+0800: 5.454: [GC (Allocation Failure) 2024-07-28T16:43:10.633+0800: 5.454: [ParNew: 77168K->8192K(78656K), 0.0047507 secs] 371712K->314000K(537136K), 0.0048246 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.638+0800: 5.459: Total time for which application threads were stopped: 0.0049347 seconds, Stopping threads took: 0.0000185 seconds
+2024-07-28T16:43:10.638+0800: 5.459: [CMS-concurrent-abortable-preclean: 0.005/0.246 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:10.638+0800: 5.459: Application time: 0.0003144 seconds
+2024-07-28T16:43:10.638+0800: 5.459: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:10.638+0800: 5.459: [Rescan (parallel) , 0.0005923 secs]2024-07-28T16:43:10.639+0800: 5.460: [weak refs processing, 0.0000141 secs]2024-07-28T16:43:10.639+0800: 5.460: [class unloading, 0.0001857 secs]2024-07-28T16:43:10.639+0800: 5.460: [scrub symbol table, 0.0003200 secs]2024-07-28T16:43:10.639+0800: 5.460: [scrub string table, 0.0001030 secs][1 CMS-remark: 305808K(458480K)] 318463K(537136K), 0.0012871 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.639+0800: 5.461: Total time for which application threads were stopped: 0.0014401 seconds, Stopping threads took: 0.0001101 seconds
+2024-07-28T16:43:10.640+0800: 5.461: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:10.641+0800: 5.462: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.641+0800: 5.462: [CMS-concurrent-reset-start]
+2024-07-28T16:43:10.642+0800: 5.463: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.644+0800: 5.466: Application time: 0.0050581 seconds
+2024-07-28T16:43:10.645+0800: 5.466: [GC (Allocation Failure) 2024-07-28T16:43:10.645+0800: 5.466: [ParNew: 77168K->8192K(78656K), 0.0123505 secs] 236542K->236174K(537136K), 0.0123998 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.657+0800: 5.478: Total time for which application threads were stopped: 0.0125064 seconds, Stopping threads took: 0.0000215 seconds
+2024-07-28T16:43:10.657+0800: 5.478: Application time: 0.0002408 seconds
+2024-07-28T16:43:10.657+0800: 5.478: [GC (CMS Initial Mark) [1 CMS-initial-mark: 227982K(458480K)] 239614K(537136K), 0.0007983 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.658+0800: 5.479: Total time for which application threads were stopped: 0.0009260 seconds, Stopping threads took: 0.0000856 seconds
+2024-07-28T16:43:10.658+0800: 5.479: [CMS-concurrent-mark-start]
+2024-07-28T16:43:10.660+0800: 5.481: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.660+0800: 5.481: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:10.660+0800: 5.481: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.660+0800: 5.481: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:10.775+0800: 5.596: Application time: 0.1171413 seconds
+2024-07-28T16:43:10.776+0800: 5.596: [GC (Allocation Failure) 2024-07-28T16:43:10.776+0800: 5.597: [ParNew: 77168K->8192K(78656K), 0.0119994 secs] 305151K->304784K(537136K), 0.0120649 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:10.788+0800: 5.609: Total time for which application threads were stopped: 0.0122158 seconds, Stopping threads took: 0.0000413 seconds
+2024-07-28T16:43:10.899+0800: 5.720: Application time: 0.1113600 seconds
+2024-07-28T16:43:10.899+0800: 5.720: [GC (Allocation Failure) 2024-07-28T16:43:10.899+0800: 5.720: [ParNew: 77168K->8192K(78656K), 0.0040928 secs] 373760K->317072K(537136K), 0.0041669 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.903+0800: 5.724: Total time for which application threads were stopped: 0.0042764 seconds, Stopping threads took: 0.0000184 seconds
+2024-07-28T16:43:10.903+0800: 5.724: [CMS-concurrent-abortable-preclean: 0.005/0.243 secs] [Times: user=0.05 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:10.904+0800: 5.725: Application time: 0.0002669 seconds
+2024-07-28T16:43:10.904+0800: 5.725: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:10.904+0800: 5.725: [Rescan (parallel) , 0.0005726 secs]2024-07-28T16:43:10.904+0800: 5.725: [weak refs processing, 0.0000246 secs]2024-07-28T16:43:10.905+0800: 5.725: [class unloading, 0.0001761 secs]2024-07-28T16:43:10.905+0800: 5.726: [scrub symbol table, 0.0003316 secs]2024-07-28T16:43:10.905+0800: 5.726: [scrub string table, 0.0001050 secs][1 CMS-remark: 308880K(458480K)] 321535K(537136K), 0.0012759 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.905+0800: 5.726: Total time for which application threads were stopped: 0.0014925 seconds, Stopping threads took: 0.0001782 seconds
+2024-07-28T16:43:10.905+0800: 5.726: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:10.907+0800: 5.728: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.907+0800: 5.728: [CMS-concurrent-reset-start]
+2024-07-28T16:43:10.908+0800: 5.729: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.910+0800: 5.731: Application time: 0.0048823 seconds
+2024-07-28T16:43:10.910+0800: 5.731: [GC (Allocation Failure) 2024-07-28T16:43:10.910+0800: 5.731: [ParNew: 77168K->8192K(78656K), 0.0127698 secs] 238590K->238223K(537136K), 0.0473093 secs] [Times: user=0.13 sys=0.00, real=0.05 secs] 
+2024-07-28T16:43:10.957+0800: 5.778: Total time for which application threads were stopped: 0.0474280 seconds, Stopping threads took: 0.0000146 seconds
+2024-07-28T16:43:10.958+0800: 5.779: Application time: 0.0003136 seconds
+2024-07-28T16:43:10.958+0800: 5.779: [GC (CMS Initial Mark) [1 CMS-initial-mark: 230030K(458480K)] 241662K(537136K), 0.0007998 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.959+0800: 5.780: Total time for which application threads were stopped: 0.0009805 seconds, Stopping threads took: 0.0001358 seconds
+2024-07-28T16:43:10.959+0800: 5.780: [CMS-concurrent-mark-start]
+2024-07-28T16:43:10.960+0800: 5.781: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.960+0800: 5.781: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:10.961+0800: 5.782: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:10.961+0800: 5.782: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:11.076+0800: 5.897: Application time: 0.1169151 seconds
+2024-07-28T16:43:11.076+0800: 5.897: [GC (Allocation Failure) 2024-07-28T16:43:11.076+0800: 5.897: [ParNew: 77168K->8192K(78656K), 0.0118711 secs] 307199K->306832K(537136K), 0.0119294 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.088+0800: 5.909: Total time for which application threads were stopped: 0.0120387 seconds, Stopping threads took: 0.0000198 seconds
+2024-07-28T16:43:11.199+0800: 6.020: Application time: 0.1110409 seconds
+2024-07-28T16:43:11.199+0800: 6.020: [GC (Allocation Failure) 2024-07-28T16:43:11.199+0800: 6.020: [ParNew: 77168K->8192K(78656K), 0.0041898 secs] 375808K->320144K(537136K), 0.0042634 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.203+0800: 6.024: Total time for which application threads were stopped: 0.0043836 seconds, Stopping threads took: 0.0000184 seconds
+2024-07-28T16:43:11.203+0800: 6.024: [CMS-concurrent-abortable-preclean: 0.005/0.242 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:11.203+0800: 6.024: Application time: 0.0003739 seconds
+2024-07-28T16:43:11.204+0800: 6.025: [GC (CMS Final Remark) [YG occupancy: 14703 K (78656 K)]2024-07-28T16:43:11.204+0800: 6.025: [Rescan (parallel) , 0.0010259 secs]2024-07-28T16:43:11.205+0800: 6.026: [weak refs processing, 0.0000132 secs]2024-07-28T16:43:11.205+0800: 6.026: [class unloading, 0.0002056 secs]2024-07-28T16:43:11.205+0800: 6.026: [scrub symbol table, 0.0003085 secs]2024-07-28T16:43:11.205+0800: 6.026: [scrub string table, 0.0000896 secs][1 CMS-remark: 311952K(458480K)] 326655K(537136K), 0.0017083 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.205+0800: 6.026: Total time for which application threads were stopped: 0.0018989 seconds, Stopping threads took: 0.0001544 seconds
+2024-07-28T16:43:11.206+0800: 6.027: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:11.207+0800: 6.028: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.207+0800: 6.028: [CMS-concurrent-reset-start]
+2024-07-28T16:43:11.208+0800: 6.029: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.210+0800: 6.031: Application time: 0.0047949 seconds
+2024-07-28T16:43:11.210+0800: 6.031: [GC (Allocation Failure) 2024-07-28T16:43:11.210+0800: 6.031: [ParNew: 77168K->8192K(78656K), 0.0125944 secs] 240638K->240271K(537136K), 0.0126425 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.223+0800: 6.044: Total time for which application threads were stopped: 0.0127398 seconds, Stopping threads took: 0.0000141 seconds
+2024-07-28T16:43:11.223+0800: 6.044: Application time: 0.0002121 seconds
+2024-07-28T16:43:11.223+0800: 6.044: [GC (CMS Initial Mark) [1 CMS-initial-mark: 232078K(458480K)] 243710K(537136K), 0.0008125 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.224+0800: 6.045: Total time for which application threads were stopped: 0.0010526 seconds, Stopping threads took: 0.0001358 seconds
+2024-07-28T16:43:11.224+0800: 6.045: [CMS-concurrent-mark-start]
+2024-07-28T16:43:11.226+0800: 6.047: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.226+0800: 6.047: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:11.226+0800: 6.047: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.226+0800: 6.047: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:11.343+0800: 6.164: Application time: 0.1185170 seconds
+2024-07-28T16:43:11.343+0800: 6.164: [GC (Allocation Failure) 2024-07-28T16:43:11.343+0800: 6.164: [ParNew: 77168K->8192K(78656K), 0.0118701 secs] 309247K->308880K(537136K), 0.0119351 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.355+0800: 6.176: Total time for which application threads were stopped: 0.0120516 seconds, Stopping threads took: 0.0000209 seconds
+2024-07-28T16:43:11.468+0800: 6.288: Application time: 0.1127652 seconds
+2024-07-28T16:43:11.468+0800: 6.289: [GC (Allocation Failure) 2024-07-28T16:43:11.468+0800: 6.289: [ParNew: 77168K->8192K(78656K), 0.0041220 secs] 377856K->323216K(537136K), 0.0041807 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.472+0800: 6.293: Total time for which application threads were stopped: 0.0042905 seconds, Stopping threads took: 0.0000204 seconds
+2024-07-28T16:43:11.472+0800: 6.293: [CMS-concurrent-abortable-preclean: 0.005/0.246 secs] [Times: user=0.03 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:11.472+0800: 6.293: Application time: 0.0003070 seconds
+2024-07-28T16:43:11.472+0800: 6.293: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:11.472+0800: 6.293: [Rescan (parallel) , 0.0010441 secs]2024-07-28T16:43:11.473+0800: 6.294: [weak refs processing, 0.0000129 secs]2024-07-28T16:43:11.473+0800: 6.294: [class unloading, 0.0001871 secs]2024-07-28T16:43:11.474+0800: 6.295: [scrub symbol table, 0.0003486 secs]2024-07-28T16:43:11.474+0800: 6.295: [scrub string table, 0.0000999 secs][1 CMS-remark: 315024K(458480K)] 327679K(537136K), 0.0017552 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.474+0800: 6.295: Total time for which application threads were stopped: 0.0019396 seconds, Stopping threads took: 0.0001484 seconds
+2024-07-28T16:43:11.474+0800: 6.295: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:11.476+0800: 6.297: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.476+0800: 6.297: [CMS-concurrent-reset-start]
+2024-07-28T16:43:11.477+0800: 6.298: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.479+0800: 6.300: Application time: 0.0047256 seconds
+2024-07-28T16:43:11.479+0800: 6.300: [GC (Allocation Failure) 2024-07-28T16:43:11.479+0800: 6.300: [ParNew: 77168K->8192K(78656K), 0.0123234 secs] 242686K->242319K(537136K), 0.0123716 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.491+0800: 6.312: Total time for which application threads were stopped: 0.0124645 seconds, Stopping threads took: 0.0000123 seconds
+2024-07-28T16:43:11.491+0800: 6.312: Application time: 0.0001933 seconds
+2024-07-28T16:43:11.492+0800: 6.313: [GC (CMS Initial Mark) [1 CMS-initial-mark: 234126K(458480K)] 245758K(537136K), 0.0008080 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.492+0800: 6.313: Total time for which application threads were stopped: 0.0010174 seconds, Stopping threads took: 0.0001645 seconds
+2024-07-28T16:43:11.493+0800: 6.313: [CMS-concurrent-mark-start]
+2024-07-28T16:43:11.494+0800: 6.315: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.494+0800: 6.315: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:11.494+0800: 6.315: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.495+0800: 6.316: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:11.611+0800: 6.432: Application time: 0.1183392 seconds
+2024-07-28T16:43:11.611+0800: 6.432: [GC (Allocation Failure) 2024-07-28T16:43:11.611+0800: 6.432: [ParNew: 77168K->8192K(78656K), 0.0118701 secs] 311295K->310928K(537136K), 0.0119367 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.623+0800: 6.444: Total time for which application threads were stopped: 0.0120450 seconds, Stopping threads took: 0.0000192 seconds
+2024-07-28T16:43:11.735+0800: 6.557: Application time: 0.1127783 seconds
+2024-07-28T16:43:11.735+0800: 6.557: [GC (Allocation Failure) 2024-07-28T16:43:11.735+0800: 6.557: [ParNew: 77168K->8192K(78656K), 0.0044572 secs] 379904K->326288K(537136K), 0.0045152 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.740+0800: 6.561: Total time for which application threads were stopped: 0.0046265 seconds, Stopping threads took: 0.0000195 seconds
+2024-07-28T16:43:11.740+0800: 6.561: [CMS-concurrent-abortable-preclean: 0.006/0.246 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:11.740+0800: 6.562: Application time: 0.0003687 seconds
+2024-07-28T16:43:11.740+0800: 6.562: [GC (CMS Final Remark) [YG occupancy: 13679 K (78656 K)]2024-07-28T16:43:11.740+0800: 6.562: [Rescan (parallel) , 0.0010716 secs]2024-07-28T16:43:11.741+0800: 6.563: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:11.741+0800: 6.563: [class unloading, 0.0001682 secs]2024-07-28T16:43:11.741+0800: 6.563: [scrub symbol table, 0.0003104 secs]2024-07-28T16:43:11.742+0800: 6.563: [scrub string table, 0.0001075 secs][1 CMS-remark: 318096K(458480K)] 331776K(537136K), 0.0017330 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.742+0800: 6.563: Total time for which application threads were stopped: 0.0018895 seconds, Stopping threads took: 0.0001202 seconds
+2024-07-28T16:43:11.742+0800: 6.564: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:11.744+0800: 6.565: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.744+0800: 6.565: [CMS-concurrent-reset-start]
+2024-07-28T16:43:11.745+0800: 6.566: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.747+0800: 6.568: Application time: 0.0046973 seconds
+2024-07-28T16:43:11.747+0800: 6.568: [GC (Allocation Failure) 2024-07-28T16:43:11.747+0800: 6.568: [ParNew: 77168K->8192K(78656K), 0.0123101 secs] 244734K->244367K(537136K), 0.0123569 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.759+0800: 6.581: Total time for which application threads were stopped: 0.0124524 seconds, Stopping threads took: 0.0000126 seconds
+2024-07-28T16:43:11.759+0800: 6.581: Application time: 0.0001354 seconds
+2024-07-28T16:43:11.759+0800: 6.581: [GC (CMS Initial Mark) [1 CMS-initial-mark: 236174K(458480K)] 247806K(537136K), 0.0007399 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.760+0800: 6.582: Total time for which application threads were stopped: 0.0008972 seconds, Stopping threads took: 0.0001161 seconds
+2024-07-28T16:43:11.760+0800: 6.582: [CMS-concurrent-mark-start]
+2024-07-28T16:43:11.761+0800: 6.583: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.761+0800: 6.583: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:11.762+0800: 6.584: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:11.762+0800: 6.584: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:11.880+0800: 6.701: Application time: 0.1192150 seconds
+2024-07-28T16:43:11.880+0800: 6.701: [GC (Allocation Failure) 2024-07-28T16:43:11.880+0800: 6.701: [ParNew: 77168K->8192K(78656K), 0.0123035 secs] 313343K->312976K(537136K), 0.0123625 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:11.893+0800: 6.713: Total time for which application threads were stopped: 0.0124751 seconds, Stopping threads took: 0.0000181 seconds
+2024-07-28T16:43:12.004+0800: 6.824: Application time: 0.1111344 seconds
+2024-07-28T16:43:12.004+0800: 6.825: [GC (Allocation Failure) 2024-07-28T16:43:12.004+0800: 6.825: [ParNew: 77168K->8192K(78656K), 0.0046636 secs] 381952K->329360K(537136K), 0.0047882 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.009+0800: 6.829: Total time for which application threads were stopped: 0.0048979 seconds, Stopping threads took: 0.0000200 seconds
+2024-07-28T16:43:12.009+0800: 6.829: [CMS-concurrent-abortable-preclean: 0.005/0.246 secs] [Times: user=0.05 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:12.009+0800: 6.830: Application time: 0.0002403 seconds
+2024-07-28T16:43:12.009+0800: 6.830: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:12.009+0800: 6.830: [Rescan (parallel) , 0.0005996 secs]2024-07-28T16:43:12.010+0800: 6.830: [weak refs processing, 0.0000136 secs]2024-07-28T16:43:12.010+0800: 6.830: [class unloading, 0.0001759 secs]2024-07-28T16:43:12.010+0800: 6.831: [scrub symbol table, 0.0002971 secs]2024-07-28T16:43:12.010+0800: 6.831: [scrub string table, 0.0000909 secs][1 CMS-remark: 321168K(458480K)] 333824K(537136K), 0.0012426 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.010+0800: 6.831: Total time for which application threads were stopped: 0.0014050 seconds, Stopping threads took: 0.0001243 seconds
+2024-07-28T16:43:12.010+0800: 6.831: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:12.012+0800: 6.832: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.012+0800: 6.833: [CMS-concurrent-reset-start]
+2024-07-28T16:43:12.013+0800: 6.834: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.015+0800: 6.836: Application time: 0.0048033 seconds
+2024-07-28T16:43:12.015+0800: 6.836: [GC (Allocation Failure) 2024-07-28T16:43:12.015+0800: 6.836: [ParNew: 77168K->8192K(78656K), 0.0121784 secs] 246782K->246415K(537136K), 0.0122276 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.027+0800: 6.848: Total time for which application threads were stopped: 0.0123243 seconds, Stopping threads took: 0.0000140 seconds
+2024-07-28T16:43:12.028+0800: 6.848: Application time: 0.0002737 seconds
+2024-07-28T16:43:12.028+0800: 6.849: [GC (CMS Initial Mark) [1 CMS-initial-mark: 238223K(458480K)] 249854K(537136K), 0.0008195 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.029+0800: 6.849: Total time for which application threads were stopped: 0.0009958 seconds, Stopping threads took: 0.0001339 seconds
+2024-07-28T16:43:12.029+0800: 6.850: [CMS-concurrent-mark-start]
+2024-07-28T16:43:12.030+0800: 6.851: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.030+0800: 6.851: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:12.031+0800: 6.851: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.031+0800: 6.851: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:12.147+0800: 6.969: Application time: 0.1192864 seconds
+2024-07-28T16:43:12.148+0800: 6.969: [GC (Allocation Failure) 2024-07-28T16:43:12.148+0800: 6.969: [ParNew: 77168K->8192K(78656K), 0.0120734 secs] 315391K->315024K(537136K), 0.0121331 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.160+0800: 6.981: Total time for which application threads were stopped: 0.0122458 seconds, Stopping threads took: 0.0000192 seconds
+2024-07-28T16:43:12.272+0800: 7.093: Application time: 0.1120349 seconds
+2024-07-28T16:43:12.272+0800: 7.093: [GC (Allocation Failure) 2024-07-28T16:43:12.272+0800: 7.093: [ParNew: 77168K->8192K(78656K), 0.0057319 secs] 384000K->332432K(537136K), 0.0057906 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.278+0800: 7.099: Total time for which application threads were stopped: 0.0059016 seconds, Stopping threads took: 0.0000215 seconds
+2024-07-28T16:43:12.278+0800: 7.099: [CMS-concurrent-abortable-preclean: 0.006/0.248 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:12.278+0800: 7.099: Application time: 0.0004890 seconds
+2024-07-28T16:43:12.279+0800: 7.100: [GC (CMS Final Remark) [YG occupancy: 14703 K (78656 K)]2024-07-28T16:43:12.279+0800: 7.100: [Rescan (parallel) , 0.0010538 secs]2024-07-28T16:43:12.280+0800: 7.101: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:12.280+0800: 7.101: [class unloading, 0.0002204 secs]2024-07-28T16:43:12.280+0800: 7.101: [scrub symbol table, 0.0003535 secs]2024-07-28T16:43:12.280+0800: 7.101: [scrub string table, 0.0001111 secs][1 CMS-remark: 324240K(458480K)] 338944K(537136K), 0.0018195 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.280+0800: 7.101: Total time for which application threads were stopped: 0.0020204 seconds, Stopping threads took: 0.0001419 seconds
+2024-07-28T16:43:12.281+0800: 7.102: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:12.282+0800: 7.103: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.282+0800: 7.103: [CMS-concurrent-reset-start]
+2024-07-28T16:43:12.283+0800: 7.105: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.285+0800: 7.106: Application time: 0.0048657 seconds
+2024-07-28T16:43:12.285+0800: 7.106: [GC (Allocation Failure) 2024-07-28T16:43:12.285+0800: 7.106: [ParNew: 77168K->8192K(78656K), 0.0127640 secs] 248830K->248463K(537136K), 0.0128128 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.298+0800: 7.119: Total time for which application threads were stopped: 0.0129208 seconds, Stopping threads took: 0.0000126 seconds
+2024-07-28T16:43:12.298+0800: 7.119: Application time: 0.0001306 seconds
+2024-07-28T16:43:12.298+0800: 7.120: [GC (CMS Initial Mark) [1 CMS-initial-mark: 240271K(458480K)] 251902K(537136K), 0.0007615 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.299+0800: 7.120: Total time for which application threads were stopped: 0.0009761 seconds, Stopping threads took: 0.0001595 seconds
+2024-07-28T16:43:12.299+0800: 7.120: [CMS-concurrent-mark-start]
+2024-07-28T16:43:12.301+0800: 7.122: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.301+0800: 7.122: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:12.301+0800: 7.122: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.301+0800: 7.122: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:12.416+0800: 7.238: Application time: 0.1173492 seconds
+2024-07-28T16:43:12.416+0800: 7.238: [GC (Allocation Failure) 2024-07-28T16:43:12.416+0800: 7.238: [ParNew: 77168K->8200K(78656K), 0.0119720 secs] 317439K->317080K(537136K), 0.0120309 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.428+0800: 7.250: Total time for which application threads were stopped: 0.0121544 seconds, Stopping threads took: 0.0000241 seconds
+2024-07-28T16:43:12.540+0800: 7.362: Application time: 0.1117272 seconds
+2024-07-28T16:43:12.540+0800: 7.362: [GC (Allocation Failure) 2024-07-28T16:43:12.540+0800: 7.362: [ParNew: 77176K->8192K(78656K), 0.0049190 secs] 386056K->335504K(537136K), 0.0049768 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.545+0800: 7.367: Total time for which application threads were stopped: 0.0050991 seconds, Stopping threads took: 0.0000192 seconds
+2024-07-28T16:43:12.545+0800: 7.367: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.05 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:12.545+0800: 7.367: Application time: 0.0003123 seconds
+2024-07-28T16:43:12.546+0800: 7.367: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:12.546+0800: 7.367: [Rescan (parallel) , 0.0011180 secs]2024-07-28T16:43:12.547+0800: 7.368: [weak refs processing, 0.0000129 secs]2024-07-28T16:43:12.547+0800: 7.368: [class unloading, 0.0001948 secs]2024-07-28T16:43:12.547+0800: 7.368: [scrub symbol table, 0.0003432 secs]2024-07-28T16:43:12.547+0800: 7.369: [scrub string table, 0.0001001 secs][1 CMS-remark: 327312K(458480K)] 339968K(537136K), 0.0018348 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.547+0800: 7.369: Total time for which application threads were stopped: 0.0019460 seconds, Stopping threads took: 0.0000746 seconds
+2024-07-28T16:43:12.548+0800: 7.369: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:12.549+0800: 7.371: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.549+0800: 7.371: [CMS-concurrent-reset-start]
+2024-07-28T16:43:12.551+0800: 7.372: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.552+0800: 7.374: Application time: 0.0048225 seconds
+2024-07-28T16:43:12.552+0800: 7.374: [GC (Allocation Failure) 2024-07-28T16:43:12.552+0800: 7.374: [ParNew: 77168K->8192K(78656K), 0.0120132 secs] 250879K->250511K(537136K), 0.0120606 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.564+0800: 7.386: Total time for which application threads were stopped: 0.0121554 seconds, Stopping threads took: 0.0000125 seconds
+2024-07-28T16:43:12.565+0800: 7.386: Application time: 0.0001939 seconds
+2024-07-28T16:43:12.565+0800: 7.386: [GC (CMS Initial Mark) [1 CMS-initial-mark: 242319K(458480K)] 253951K(537136K), 0.0007596 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.566+0800: 7.387: Total time for which application threads were stopped: 0.0009696 seconds, Stopping threads took: 0.0001681 seconds
+2024-07-28T16:43:12.566+0800: 7.387: [CMS-concurrent-mark-start]
+2024-07-28T16:43:12.567+0800: 7.388: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.567+0800: 7.388: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:12.567+0800: 7.389: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.567+0800: 7.389: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:12.684+0800: 7.506: Application time: 0.1186927 seconds
+2024-07-28T16:43:12.684+0800: 7.506: [GC (Allocation Failure) 2024-07-28T16:43:12.684+0800: 7.506: [ParNew: 77168K->8192K(78656K), 0.0123696 secs] 319488K->319120K(537136K), 0.0124360 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.697+0800: 7.518: Total time for which application threads were stopped: 0.0125454 seconds, Stopping threads took: 0.0000178 seconds
+2024-07-28T16:43:12.806+0800: 7.627: Application time: 0.1088914 seconds
+2024-07-28T16:43:12.806+0800: 7.627: [GC (Allocation Failure) 2024-07-28T16:43:12.806+0800: 7.627: [ParNew: 77168K->8192K(78656K), 0.0050663 secs] 388097K->338577K(537136K), 0.0051257 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.811+0800: 7.632: Total time for which application threads were stopped: 0.0052412 seconds, Stopping threads took: 0.0000199 seconds
+2024-07-28T16:43:12.811+0800: 7.633: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:12.811+0800: 7.633: Application time: 0.0003089 seconds
+2024-07-28T16:43:12.811+0800: 7.633: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:12.811+0800: 7.633: [Rescan (parallel) , 0.0009311 secs]2024-07-28T16:43:12.812+0800: 7.634: [weak refs processing, 0.0000132 secs]2024-07-28T16:43:12.812+0800: 7.634: [class unloading, 0.0001945 secs]2024-07-28T16:43:12.813+0800: 7.634: [scrub symbol table, 0.0003465 secs]2024-07-28T16:43:12.813+0800: 7.634: [scrub string table, 0.0001086 secs][1 CMS-remark: 330384K(458480K)] 343040K(537136K), 0.0016573 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.813+0800: 7.635: Total time for which application threads were stopped: 0.0018316 seconds, Stopping threads took: 0.0001378 seconds
+2024-07-28T16:43:12.813+0800: 7.635: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:12.815+0800: 7.636: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.815+0800: 7.636: [CMS-concurrent-reset-start]
+2024-07-28T16:43:12.816+0800: 7.638: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.818+0800: 7.639: Application time: 0.0048464 seconds
+2024-07-28T16:43:12.818+0800: 7.640: [GC (Allocation Failure) 2024-07-28T16:43:12.818+0800: 7.640: [ParNew: 77168K->8192K(78656K), 0.0119890 secs] 252927K->252559K(537136K), 0.0120372 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.830+0800: 7.652: Total time for which application threads were stopped: 0.0121325 seconds, Stopping threads took: 0.0000127 seconds
+2024-07-28T16:43:12.830+0800: 7.652: Application time: 0.0001853 seconds
+2024-07-28T16:43:12.830+0800: 7.652: [GC (CMS Initial Mark) [1 CMS-initial-mark: 244367K(458480K)] 255999K(537136K), 0.0007417 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.831+0800: 7.653: Total time for which application threads were stopped: 0.0009169 seconds, Stopping threads took: 0.0001276 seconds
+2024-07-28T16:43:12.831+0800: 7.653: [CMS-concurrent-mark-start]
+2024-07-28T16:43:12.832+0800: 7.654: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.832+0800: 7.654: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:12.833+0800: 7.655: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:12.833+0800: 7.655: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:12.949+0800: 7.771: Application time: 0.1182642 seconds
+2024-07-28T16:43:12.949+0800: 7.771: [GC (Allocation Failure) 2024-07-28T16:43:12.949+0800: 7.771: [ParNew: 77168K->8192K(78656K), 0.0120577 secs] 321536K->321168K(537136K), 0.0121156 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:12.962+0800: 7.783: Total time for which application threads were stopped: 0.0122273 seconds, Stopping threads took: 0.0000190 seconds
+2024-07-28T16:43:13.073+0800: 7.894: Application time: 0.1107882 seconds
+2024-07-28T16:43:13.073+0800: 7.894: [GC (Allocation Failure) 2024-07-28T16:43:13.073+0800: 7.894: [ParNew: 77168K->8192K(78656K), 0.0053320 secs] 390145K->341649K(537136K), 0.0054132 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.079+0800: 7.900: Total time for which application threads were stopped: 0.0055257 seconds, Stopping threads took: 0.0000201 seconds
+2024-07-28T16:43:13.079+0800: 7.900: [CMS-concurrent-abortable-preclean: 0.005/0.245 secs] [Times: user=0.03 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:13.079+0800: 7.900: Application time: 0.0003496 seconds
+2024-07-28T16:43:13.079+0800: 7.900: [GC (CMS Final Remark) [YG occupancy: 13679 K (78656 K)]2024-07-28T16:43:13.079+0800: 7.900: [Rescan (parallel) , 0.0007409 secs]2024-07-28T16:43:13.080+0800: 7.901: [weak refs processing, 0.0000132 secs]2024-07-28T16:43:13.080+0800: 7.901: [class unloading, 0.0001937 secs]2024-07-28T16:43:13.080+0800: 7.901: [scrub symbol table, 0.0003369 secs]2024-07-28T16:43:13.080+0800: 7.901: [scrub string table, 0.0001003 secs][1 CMS-remark: 333456K(458480K)] 347136K(537136K), 0.0014467 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.080+0800: 7.901: Total time for which application threads were stopped: 0.0015656 seconds, Stopping threads took: 0.0000837 seconds
+2024-07-28T16:43:13.081+0800: 7.902: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:13.082+0800: 7.903: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.082+0800: 7.903: [CMS-concurrent-reset-start]
+2024-07-28T16:43:13.083+0800: 7.904: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.085+0800: 7.906: Application time: 0.0047417 seconds
+2024-07-28T16:43:13.085+0800: 7.906: [GC (Allocation Failure) 2024-07-28T16:43:13.085+0800: 7.906: [ParNew: 77168K->8192K(78656K), 0.0121032 secs] 254975K->254607K(537136K), 0.0121568 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.098+0800: 7.918: Total time for which application threads were stopped: 0.0122581 seconds, Stopping threads took: 0.0000122 seconds
+2024-07-28T16:43:13.098+0800: 7.919: Application time: 0.0002154 seconds
+2024-07-28T16:43:13.098+0800: 7.919: [GC (CMS Initial Mark) [1 CMS-initial-mark: 246415K(458480K)] 258047K(537136K), 0.0007091 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+2024-07-28T16:43:13.099+0800: 7.920: Total time for which application threads were stopped: 0.0008737 seconds, Stopping threads took: 0.0001218 seconds
+2024-07-28T16:43:13.099+0800: 7.920: [CMS-concurrent-mark-start]
+2024-07-28T16:43:13.100+0800: 7.921: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.100+0800: 7.921: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:13.100+0800: 7.921: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.100+0800: 7.921: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:13.216+0800: 8.038: Application time: 0.1180826 seconds
+2024-07-28T16:43:13.216+0800: 8.038: [GC (Allocation Failure) 2024-07-28T16:43:13.216+0800: 8.038: [ParNew: 77168K->8192K(78656K), 0.0122948 secs] 323584K->323216K(537136K), 0.0123520 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.229+0800: 8.050: Total time for which application threads were stopped: 0.0124631 seconds, Stopping threads took: 0.0000194 seconds
+2024-07-28T16:43:13.341+0800: 8.162: Application time: 0.1119934 seconds
+2024-07-28T16:43:13.341+0800: 8.162: [GC (Allocation Failure) 2024-07-28T16:43:13.341+0800: 8.162: [ParNew: 77168K->8192K(78656K), 0.0057207 secs] 392193K->344721K(537136K), 0.0057798 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.347+0800: 8.168: Total time for which application threads were stopped: 0.0058901 seconds, Stopping threads took: 0.0000185 seconds
+2024-07-28T16:43:13.347+0800: 8.168: [CMS-concurrent-abortable-preclean: 0.005/0.247 secs] [Times: user=0.03 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:13.347+0800: 8.168: Application time: 0.0002590 seconds
+2024-07-28T16:43:13.348+0800: 8.168: [GC (CMS Final Remark) [YG occupancy: 11631 K (78656 K)]2024-07-28T16:43:13.348+0800: 8.168: [Rescan (parallel) , 0.0007939 secs]2024-07-28T16:43:13.348+0800: 8.169: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:13.349+0800: 8.169: [class unloading, 0.0001790 secs]2024-07-28T16:43:13.349+0800: 8.169: [scrub symbol table, 0.0003379 secs]2024-07-28T16:43:13.349+0800: 8.170: [scrub string table, 0.0001133 secs][1 CMS-remark: 336528K(458480K)] 348160K(537136K), 0.0015041 secs] [Times: user=0.00 sys=0.03, real=0.00 secs] 
+2024-07-28T16:43:13.349+0800: 8.170: Total time for which application threads were stopped: 0.0016769 seconds, Stopping threads took: 0.0001363 seconds
+2024-07-28T16:43:13.349+0800: 8.170: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:13.350+0800: 8.171: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.351+0800: 8.171: [CMS-concurrent-reset-start]
+2024-07-28T16:43:13.352+0800: 8.173: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.354+0800: 8.175: Application time: 0.0049923 seconds
+2024-07-28T16:43:13.354+0800: 8.175: [GC (Allocation Failure) 2024-07-28T16:43:13.354+0800: 8.175: [ParNew: 77168K->8192K(78656K), 0.0127255 secs] 257023K->256655K(537136K), 0.0127723 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.367+0800: 8.188: Total time for which application threads were stopped: 0.0128688 seconds, Stopping threads took: 0.0000133 seconds
+2024-07-28T16:43:13.367+0800: 8.188: Application time: 0.0002343 seconds
+2024-07-28T16:43:13.367+0800: 8.188: [GC (CMS Initial Mark) [1 CMS-initial-mark: 248463K(458480K)] 260095K(537136K), 0.0006294 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.368+0800: 8.189: Total time for which application threads were stopped: 0.0007540 seconds, Stopping threads took: 0.0000834 seconds
+2024-07-28T16:43:13.368+0800: 8.189: [CMS-concurrent-mark-start]
+2024-07-28T16:43:13.369+0800: 8.190: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.369+0800: 8.190: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:13.370+0800: 8.190: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.370+0800: 8.191: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:13.484+0800: 8.306: Application time: 0.1171492 seconds
+2024-07-28T16:43:13.484+0800: 8.306: [GC (Allocation Failure) 2024-07-28T16:43:13.485+0800: 8.306: [ParNew: 77168K->8192K(78656K), 0.0123298 secs] 325632K->325264K(537136K), 0.0123939 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.497+0800: 8.318: Total time for which application threads were stopped: 0.0125046 seconds, Stopping threads took: 0.0000191 seconds
+2024-07-28T16:43:13.609+0800: 8.430: Application time: 0.1120390 seconds
+2024-07-28T16:43:13.609+0800: 8.431: [GC (Allocation Failure) 2024-07-28T16:43:13.609+0800: 8.431: [ParNew: 77168K->8192K(78656K), 0.0054201 secs] 394241K->347793K(537136K), 0.0054832 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.615+0800: 8.436: Total time for which application threads were stopped: 0.0055930 seconds, Stopping threads took: 0.0000198 seconds
+2024-07-28T16:43:13.615+0800: 8.436: [CMS-concurrent-abortable-preclean: 0.005/0.246 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:13.615+0800: 8.436: Application time: 0.0004106 seconds
+2024-07-28T16:43:13.615+0800: 8.437: [GC (CMS Final Remark) [YG occupancy: 14703 K (78656 K)]2024-07-28T16:43:13.615+0800: 8.437: [Rescan (parallel) , 0.0007040 secs]2024-07-28T16:43:13.616+0800: 8.437: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:13.616+0800: 8.437: [class unloading, 0.0001927 secs]2024-07-28T16:43:13.616+0800: 8.438: [scrub symbol table, 0.0003386 secs]2024-07-28T16:43:13.616+0800: 8.438: [scrub string table, 0.0001004 secs][1 CMS-remark: 339601K(458480K)] 354304K(537136K), 0.0014157 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.617+0800: 8.438: Total time for which application threads were stopped: 0.0015893 seconds, Stopping threads took: 0.0001367 seconds
+2024-07-28T16:43:13.617+0800: 8.438: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:13.618+0800: 8.440: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.618+0800: 8.440: [CMS-concurrent-reset-start]
+2024-07-28T16:43:13.619+0800: 8.441: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.621+0800: 8.443: Application time: 0.0046915 seconds
+2024-07-28T16:43:13.621+0800: 8.443: [GC (Allocation Failure) 2024-07-28T16:43:13.621+0800: 8.443: [ParNew: 77168K->8192K(78656K), 0.0119428 secs] 259071K->258703K(537136K), 0.0119909 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.633+0800: 8.455: Total time for which application threads were stopped: 0.0120850 seconds, Stopping threads took: 0.0000124 seconds
+2024-07-28T16:43:13.634+0800: 8.455: Application time: 0.0001662 seconds
+2024-07-28T16:43:13.634+0800: 8.455: [GC (CMS Initial Mark) [1 CMS-initial-mark: 250511K(458480K)] 262143K(537136K), 0.0007907 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.635+0800: 8.456: Total time for which application threads were stopped: 0.0009839 seconds, Stopping threads took: 0.0001478 seconds
+2024-07-28T16:43:13.635+0800: 8.456: [CMS-concurrent-mark-start]
+2024-07-28T16:43:13.636+0800: 8.457: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.636+0800: 8.457: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:13.636+0800: 8.458: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.636+0800: 8.458: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:13.753+0800: 8.575: Application time: 0.1185359 seconds
+2024-07-28T16:43:13.753+0800: 8.575: [GC (Allocation Failure) 2024-07-28T16:43:13.753+0800: 8.575: [ParNew: 77168K->8192K(78656K), 0.0121091 secs] 327680K->327312K(537136K), 0.0121713 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.766+0800: 8.587: Total time for which application threads were stopped: 0.0122834 seconds, Stopping threads took: 0.0000194 seconds
+2024-07-28T16:43:13.876+0800: 8.698: Application time: 0.1109705 seconds
+2024-07-28T16:43:13.876+0800: 8.698: [GC (Allocation Failure) 2024-07-28T16:43:13.877+0800: 8.698: [ParNew: 77543K->8196K(78656K), 0.0055702 secs] 396664K->349845K(537136K), 0.0056334 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.882+0800: 8.704: Total time for which application threads were stopped: 0.0057444 seconds, Stopping threads took: 0.0000189 seconds
+2024-07-28T16:43:13.882+0800: 8.704: [CMS-concurrent-abortable-preclean: 0.005/0.246 secs] [Times: user=0.06 sys=0.02, real=0.25 secs] 
+2024-07-28T16:43:13.882+0800: 8.704: Application time: 0.0002875 seconds
+2024-07-28T16:43:13.883+0800: 8.704: [GC (CMS Final Remark) [YG occupancy: 12649 K (78656 K)]2024-07-28T16:43:13.883+0800: 8.704: [Rescan (parallel) , 0.0008540 secs]2024-07-28T16:43:13.883+0800: 8.705: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:13.883+0800: 8.705: [class unloading, 0.0002006 secs]2024-07-28T16:43:13.884+0800: 8.705: [scrub symbol table, 0.0003415 secs]2024-07-28T16:43:13.884+0800: 8.705: [scrub string table, 0.0001119 secs][1 CMS-remark: 341649K(458480K)] 354299K(537136K), 0.0015861 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.884+0800: 8.706: Total time for which application threads were stopped: 0.0017246 seconds, Stopping threads took: 0.0001018 seconds
+2024-07-28T16:43:13.884+0800: 8.706: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:13.886+0800: 8.707: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.886+0800: 8.707: [CMS-concurrent-reset-start]
+2024-07-28T16:43:13.887+0800: 8.709: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.889+0800: 8.710: Application time: 0.0048684 seconds
+2024-07-28T16:43:13.889+0800: 8.711: [GC (Allocation Failure) 2024-07-28T16:43:13.889+0800: 8.711: [ParNew: 77162K->8192K(78656K), 0.0121924 secs] 260089K->259727K(537136K), 0.0122421 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:13.901+0800: 8.723: Total time for which application threads were stopped: 0.0123381 seconds, Stopping threads took: 0.0000130 seconds
+2024-07-28T16:43:13.902+0800: 8.723: Application time: 0.0002045 seconds
+2024-07-28T16:43:13.902+0800: 8.723: [GC (CMS Initial Mark) [1 CMS-initial-mark: 251535K(458480K)] 263161K(537136K), 0.0008402 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.903+0800: 8.724: Total time for which application threads were stopped: 0.0010568 seconds, Stopping threads took: 0.0001740 seconds
+2024-07-28T16:43:13.903+0800: 8.724: [CMS-concurrent-mark-start]
+2024-07-28T16:43:13.904+0800: 8.725: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.904+0800: 8.725: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:13.904+0800: 8.726: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:13.904+0800: 8.726: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:14.021+0800: 8.843: Application time: 0.1185882 seconds
+2024-07-28T16:43:14.022+0800: 8.843: [GC (Allocation Failure) 2024-07-28T16:43:14.022+0800: 8.843: [ParNew: 77162K->8192K(78656K), 0.0120190 secs] 328698K->328336K(537136K), 0.0120837 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.034+0800: 8.855: Total time for which application threads were stopped: 0.0121936 seconds, Stopping threads took: 0.0000190 seconds
+2024-07-28T16:43:14.144+0800: 8.966: Application time: 0.1110620 seconds
+2024-07-28T16:43:14.144+0800: 8.966: [GC (Allocation Failure) 2024-07-28T16:43:14.144+0800: 8.966: [ParNew: 77164K->8192K(78656K), 0.0055522 secs] 397309K->351889K(537136K), 0.0056142 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+2024-07-28T16:43:14.150+0800: 8.972: Total time for which application threads were stopped: 0.0057244 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:14.150+0800: 8.972: [CMS-concurrent-abortable-preclean: 0.006/0.246 secs] [Times: user=0.05 sys=0.03, real=0.25 secs] 
+2024-07-28T16:43:14.150+0800: 8.972: Application time: 0.0004078 seconds
+2024-07-28T16:43:14.151+0800: 8.972: [GC (CMS Final Remark) [YG occupancy: 14701 K (78656 K)]2024-07-28T16:43:14.151+0800: 8.972: [Rescan (parallel) , 0.0007866 secs]2024-07-28T16:43:14.151+0800: 8.973: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:14.151+0800: 8.973: [class unloading, 0.0002234 secs]2024-07-28T16:43:14.152+0800: 8.973: [scrub symbol table, 0.0003405 secs]2024-07-28T16:43:14.152+0800: 8.974: [scrub string table, 0.0001009 secs][1 CMS-remark: 343697K(458480K)] 358398K(537136K), 0.0015281 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.152+0800: 8.974: Total time for which application threads were stopped: 0.0017442 seconds, Stopping threads took: 0.0001794 seconds
+2024-07-28T16:43:14.152+0800: 8.974: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:14.154+0800: 8.975: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.154+0800: 8.975: [CMS-concurrent-reset-start]
+2024-07-28T16:43:14.155+0800: 8.977: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.157+0800: 8.979: Application time: 0.0048774 seconds
+2024-07-28T16:43:14.157+0800: 8.979: [GC (Allocation Failure) 2024-07-28T16:43:14.157+0800: 8.979: [ParNew: 77166K->8192K(78656K), 0.0122060 secs] 261116K->260751K(537136K), 0.0122545 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.169+0800: 8.991: Total time for which application threads were stopped: 0.0123526 seconds, Stopping threads took: 0.0000143 seconds
+2024-07-28T16:43:14.170+0800: 8.991: Application time: 0.0002475 seconds
+2024-07-28T16:43:14.170+0800: 8.991: [GC (CMS Initial Mark) [1 CMS-initial-mark: 252559K(458480K)] 264189K(537136K), 0.0008396 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.171+0800: 8.992: Total time for which application threads were stopped: 0.0009007 seconds, Stopping threads took: 0.0000201 seconds
+2024-07-28T16:43:14.171+0800: 8.992: [CMS-concurrent-mark-start]
+2024-07-28T16:43:14.172+0800: 8.993: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.172+0800: 8.993: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:14.172+0800: 8.994: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.172+0800: 8.994: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:14.288+0800: 9.110: Application time: 0.1177392 seconds
+2024-07-28T16:43:14.289+0800: 9.110: [GC (Allocation Failure) 2024-07-28T16:43:14.289+0800: 9.110: [ParNew: 77167K->8192K(78656K), 0.0122849 secs] 329726K->329360K(537136K), 0.0123437 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.301+0800: 9.122: Total time for which application threads were stopped: 0.0124582 seconds, Stopping threads took: 0.0000232 seconds
+2024-07-28T16:43:14.411+0800: 9.233: Application time: 0.1102614 seconds
+2024-07-28T16:43:14.411+0800: 9.233: [GC (Allocation Failure) 2024-07-28T16:43:14.412+0800: 9.233: [ParNew: 77167K->8192K(78656K), 0.0056515 secs] 398336K->353937K(537136K), 0.0057194 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.417+0800: 9.238: Total time for which application threads were stopped: 0.0058460 seconds, Stopping threads took: 0.0000199 seconds
+2024-07-28T16:43:14.417+0800: 9.239: [CMS-concurrent-abortable-preclean: 0.005/0.245 secs] [Times: user=0.03 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:14.418+0800: 9.239: Application time: 0.0003438 seconds
+2024-07-28T16:43:14.418+0800: 9.239: [GC (CMS Final Remark) [YG occupancy: 13679 K (78656 K)]2024-07-28T16:43:14.418+0800: 9.239: [Rescan (parallel) , 0.0010489 secs]2024-07-28T16:43:14.419+0800: 9.240: [weak refs processing, 0.0000129 secs]2024-07-28T16:43:14.419+0800: 9.240: [class unloading, 0.0002273 secs]2024-07-28T16:43:14.419+0800: 9.240: [scrub symbol table, 0.0003790 secs]2024-07-28T16:43:14.419+0800: 9.241: [scrub string table, 0.0001014 secs][1 CMS-remark: 345745K(458480K)] 359424K(537136K), 0.0018444 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.420+0800: 9.241: Total time for which application threads were stopped: 0.0019830 seconds, Stopping threads took: 0.0000890 seconds
+2024-07-28T16:43:14.420+0800: 9.241: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:14.421+0800: 9.243: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.421+0800: 9.243: [CMS-concurrent-reset-start]
+2024-07-28T16:43:14.422+0800: 9.244: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.424+0800: 9.246: Application time: 0.0047560 seconds
+2024-07-28T16:43:14.424+0800: 9.246: [GC (Allocation Failure) 2024-07-28T16:43:14.424+0800: 9.246: [ParNew: 77168K->8192K(78656K), 0.0117423 secs] 263166K->262799K(537136K), 0.0117893 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.436+0800: 9.257: Total time for which application threads were stopped: 0.0118902 seconds, Stopping threads took: 0.0000125 seconds
+2024-07-28T16:43:14.436+0800: 9.258: Application time: 0.0001858 seconds
+2024-07-28T16:43:14.436+0800: 9.258: [GC (CMS Initial Mark) [1 CMS-initial-mark: 254607K(458480K)] 265215K(537136K), 0.0007713 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.437+0800: 9.259: Total time for which application threads were stopped: 0.0008342 seconds, Stopping threads took: 0.0000218 seconds
+2024-07-28T16:43:14.437+0800: 9.259: [CMS-concurrent-mark-start]
+2024-07-28T16:43:14.438+0800: 9.259: [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.438+0800: 9.260: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:14.439+0800: 9.260: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.439+0800: 9.260: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:14.554+0800: 9.376: Application time: 0.1171240 seconds
+2024-07-28T16:43:14.554+0800: 9.376: [GC (Allocation Failure) 2024-07-28T16:43:14.554+0800: 9.376: [ParNew: 77168K->8192K(78656K), 0.0120283 secs] 331776K->331408K(537136K), 0.0121021 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.567+0800: 9.388: Total time for which application threads were stopped: 0.0122112 seconds, Stopping threads took: 0.0000190 seconds
+2024-07-28T16:43:14.677+0800: 9.498: Application time: 0.1101559 seconds
+2024-07-28T16:43:14.677+0800: 9.498: [GC (Allocation Failure) 2024-07-28T16:43:14.677+0800: 9.498: [ParNew: 77171K->8192K(78656K), 0.0061271 secs] 400387K->357009K(537136K), 0.0061857 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.683+0800: 9.504: Total time for which application threads were stopped: 0.0062980 seconds, Stopping threads took: 0.0000205 seconds
+2024-07-28T16:43:14.683+0800: 9.504: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.06 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:14.683+0800: 9.505: Application time: 0.0003327 seconds
+2024-07-28T16:43:14.683+0800: 9.505: [GC (CMS Final Remark) [YG occupancy: 12649 K (78656 K)]2024-07-28T16:43:14.683+0800: 9.505: [Rescan (parallel) , 0.0008432 secs]2024-07-28T16:43:14.684+0800: 9.506: [weak refs processing, 0.0000126 secs]2024-07-28T16:43:14.684+0800: 9.506: [class unloading, 0.0001961 secs]2024-07-28T16:43:14.684+0800: 9.506: [scrub symbol table, 0.0003443 secs]2024-07-28T16:43:14.686+0800: 9.506: [scrub string table, 0.0001164 secs][1 CMS-remark: 348817K(458480K)] 361467K(537136K), 0.0015824 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.686+0800: 9.506: Total time for which application threads were stopped: 0.0017634 seconds, Stopping threads took: 0.0001425 seconds
+2024-07-28T16:43:14.686+0800: 9.507: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:14.686+0800: 9.508: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.686+0800: 9.508: [CMS-concurrent-reset-start]
+2024-07-28T16:43:14.687+0800: 9.509: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.800+0800: 9.621: Application time: 0.1145946 seconds
+2024-07-28T16:43:14.800+0800: 9.621: [GC (Allocation Failure) 2024-07-28T16:43:14.800+0800: 9.621: [ParNew: 77162K->8192K(78656K), 0.0121020 secs] 265209K->264847K(537136K), 0.0121627 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.812+0800: 9.633: Total time for which application threads were stopped: 0.0122806 seconds, Stopping threads took: 0.0000192 seconds
+2024-07-28T16:43:14.812+0800: 9.634: Application time: 0.0002368 seconds
+2024-07-28T16:43:14.813+0800: 9.634: [GC (CMS Initial Mark) [1 CMS-initial-mark: 256655K(458480K)] 268283K(537136K), 0.0008307 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.813+0800: 9.635: Total time for which application threads were stopped: 0.0010241 seconds, Stopping threads took: 0.0001513 seconds
+2024-07-28T16:43:14.813+0800: 9.635: [CMS-concurrent-mark-start]
+2024-07-28T16:43:14.817+0800: 9.638: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.817+0800: 9.638: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:14.818+0800: 9.640: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.819+0800: 9.640: Application time: 0.0051590 seconds
+2024-07-28T16:43:14.819+0800: 9.640: [GC (Allocation Failure) 2024-07-28T16:43:14.819+0800: 9.640: [ParNew: 77165K->8192K(78656K), 0.0120453 secs] 333820K->333457K(537136K), 0.0121043 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.831+0800: 9.652: Total time for which application threads were stopped: 0.0121965 seconds, Stopping threads took: 0.0000124 seconds
+2024-07-28T16:43:14.831+0800: 9.652: Application time: 0.0002668 seconds
+2024-07-28T16:43:14.831+0800: 9.652: [GC (CMS Final Remark) [YG occupancy: 12653 K (78656 K)]2024-07-28T16:43:14.831+0800: 9.652: [Rescan (parallel) , 0.0008253 secs]2024-07-28T16:43:14.832+0800: 9.653: [weak refs processing, 0.0000126 secs]2024-07-28T16:43:14.832+0800: 9.653: [class unloading, 0.0001995 secs]2024-07-28T16:43:14.832+0800: 9.653: [scrub symbol table, 0.0003476 secs]2024-07-28T16:43:14.833+0800: 9.654: [scrub string table, 0.0001004 secs][1 CMS-remark: 325264K(458480K)] 337918K(537136K), 0.0015494 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.833+0800: 9.654: Total time for which application threads were stopped: 0.0016929 seconds, Stopping threads took: 0.0001074 seconds
+2024-07-28T16:43:14.833+0800: 9.654: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:14.834+0800: 9.655: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.834+0800: 9.655: [CMS-concurrent-reset-start]
+2024-07-28T16:43:14.835+0800: 9.656: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:14.943+0800: 9.764: Application time: 0.1104655 seconds
+2024-07-28T16:43:14.943+0800: 9.764: [GC (Allocation Failure) 2024-07-28T16:43:14.943+0800: 9.764: [ParNew: 77166K->8192K(78656K), 0.0059739 secs] 240636K->198286K(537136K), 0.0060410 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:14.949+0800: 9.770: Total time for which application threads were stopped: 0.0061534 seconds, Stopping threads took: 0.0000198 seconds
+2024-07-28T16:43:15.065+0800: 9.886: Application time: 0.1153531 seconds
+2024-07-28T16:43:15.065+0800: 9.886: [GC (Allocation Failure) 2024-07-28T16:43:15.065+0800: 9.886: [ParNew: 77167K->8192K(78656K), 0.0119522 secs] 267262K->266896K(537136K), 0.0120400 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+2024-07-28T16:43:15.076+0800: 9.898: Total time for which application threads were stopped: 0.0121630 seconds, Stopping threads took: 0.0000229 seconds
+2024-07-28T16:43:15.077+0800: 9.898: Application time: 0.0001805 seconds
+2024-07-28T16:43:15.077+0800: 9.898: [GC (CMS Initial Mark) [1 CMS-initial-mark: 258703K(458480K)] 270334K(537136K), 0.0007202 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.077+0800: 9.899: Total time for which application threads were stopped: 0.0009485 seconds, Stopping threads took: 0.0001837 seconds
+2024-07-28T16:43:15.078+0800: 9.899: [CMS-concurrent-mark-start]
+2024-07-28T16:43:15.081+0800: 9.903: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.081+0800: 9.903: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:15.082+0800: 9.904: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.082+0800: 9.904: Application time: 0.0050455 seconds
+2024-07-28T16:43:15.083+0800: 9.904: [GC (Allocation Failure) 2024-07-28T16:43:15.083+0800: 9.904: [ParNew: 77167K->8192K(78656K), 0.0119823 secs] 335871K->335505K(537136K), 0.0120309 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.095+0800: 9.916: Total time for which application threads were stopped: 0.0121424 seconds, Stopping threads took: 0.0000160 seconds
+2024-07-28T16:43:15.095+0800: 9.917: Application time: 0.0003132 seconds
+2024-07-28T16:43:15.095+0800: 9.917: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:15.095+0800: 9.917: [Rescan (parallel) , 0.0009087 secs]2024-07-28T16:43:15.096+0800: 9.918: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:15.096+0800: 9.918: [class unloading, 0.0001865 secs]2024-07-28T16:43:15.096+0800: 9.918: [scrub symbol table, 0.0003483 secs]2024-07-28T16:43:15.097+0800: 9.918: [scrub string table, 0.0001128 secs][1 CMS-remark: 327312K(458480K)] 339968K(537136K), 0.0016324 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.097+0800: 9.919: Total time for which application threads were stopped: 0.0018546 seconds, Stopping threads took: 0.0001854 seconds
+2024-07-28T16:43:15.097+0800: 9.919: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:15.100+0800: 9.920: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.100+0800: 9.920: [CMS-concurrent-reset-start]
+2024-07-28T16:43:15.100+0800: 9.921: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.206+0800: 10.028: Application time: 0.1091334 seconds
+2024-07-28T16:43:15.206+0800: 10.028: [GC (Allocation Failure) 2024-07-28T16:43:15.206+0800: 10.028: [ParNew: 77168K->8192K(78656K), 0.0063081 secs] 241662K->200334K(537136K), 0.0063663 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.213+0800: 10.034: Total time for which application threads were stopped: 0.0064922 seconds, Stopping threads took: 0.0000187 seconds
+2024-07-28T16:43:15.329+0800: 10.150: Application time: 0.1154161 seconds
+2024-07-28T16:43:15.329+0800: 10.150: [GC (Allocation Failure) 2024-07-28T16:43:15.329+0800: 10.150: [ParNew: 77168K->8192K(78656K), 0.0124597 secs] 269311K->268944K(537136K), 0.0125222 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.341+0800: 10.162: Total time for which application threads were stopped: 0.0126374 seconds, Stopping threads took: 0.0000203 seconds
+2024-07-28T16:43:15.345+0800: 10.167: Application time: 0.0045291 seconds
+2024-07-28T16:43:15.345+0800: 10.167: [GC (Allocation Failure) 2024-07-28T16:43:15.345+0800: 10.167: [ParNew: 77168K->8192K(78656K), 0.0119842 secs] 337920K->337553K(537136K), 0.0120358 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.358+0800: 10.179: Total time for which application threads were stopped: 0.0121511 seconds, Stopping threads took: 0.0000149 seconds
+2024-07-28T16:43:15.358+0800: 10.179: Application time: 0.0001372 seconds
+2024-07-28T16:43:15.358+0800: 10.179: [GC (CMS Initial Mark) [1 CMS-initial-mark: 329360K(458480K)] 340992K(537136K), 0.0007747 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.359+0800: 10.180: Total time for which application threads were stopped: 0.0009753 seconds, Stopping threads took: 0.0001584 seconds
+2024-07-28T16:43:15.359+0800: 10.180: [CMS-concurrent-mark-start]
+2024-07-28T16:43:15.361+0800: 10.183: [CMS-concurrent-mark: 0.003/0.003 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.361+0800: 10.183: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:15.362+0800: 10.183: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.362+0800: 10.183: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:15.471+0800: 10.293: Application time: 0.1127044 seconds
+2024-07-28T16:43:15.472+0800: 10.293: [GC (Allocation Failure) 2024-07-28T16:43:15.472+0800: 10.293: [ParNew: 77168K->8192K(78656K), 0.0062493 secs] 406529K->366225K(537136K), 0.0063085 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.478+0800: 10.299: Total time for which application threads were stopped: 0.0064210 seconds, Stopping threads took: 0.0000197 seconds
+2024-07-28T16:43:15.595+0800: 10.417: Application time: 0.1175163 seconds
+2024-07-28T16:43:15.596+0800: 10.417: [GC (Allocation Failure) 2024-07-28T16:43:15.596+0800: 10.417: [ParNew: 77168K->8192K(78656K), 0.0121076 secs] 435202K->434834K(537136K), 0.0122062 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.608+0800: 10.429: Total time for which application threads were stopped: 0.0123335 seconds, Stopping threads took: 0.0000261 seconds
+2024-07-28T16:43:15.612+0800: 10.433: Application time: 0.0044423 seconds
+2024-07-28T16:43:15.612+0800: 10.433: [GC (Allocation Failure) 2024-07-28T16:43:15.612+0800: 10.434: [ParNew: 77168K->8192K(78656K), 0.0258136 secs] 503811K->503443K(575172K), 0.0258621 secs] [Times: user=0.05 sys=0.02, real=0.03 secs] 
+2024-07-28T16:43:15.638+0800: 10.459: Total time for which application threads were stopped: 0.0259626 seconds, Stopping threads took: 0.0000149 seconds
+2024-07-28T16:43:15.638+0800: 10.459: [CMS-concurrent-abortable-preclean: 0.005/0.276 secs] [Times: user=0.11 sys=0.02, real=0.28 secs] 
+2024-07-28T16:43:15.638+0800: 10.460: Application time: 0.0001157 seconds
+2024-07-28T16:43:15.638+0800: 10.460: [GC (CMS Final Remark) [YG occupancy: 9216 K (78656 K)]2024-07-28T16:43:15.638+0800: 10.460: [Rescan (parallel) , 0.0004240 secs]2024-07-28T16:43:15.639+0800: 10.460: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:15.639+0800: 10.460: [class unloading, 0.0002724 secs]2024-07-28T16:43:15.639+0800: 10.460: [scrub symbol table, 0.0003603 secs]2024-07-28T16:43:15.640+0800: 10.461: [scrub string table, 0.0001134 secs][1 CMS-remark: 495251K(496516K)] 504467K(575172K), 0.0012493 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.640+0800: 10.461: Total time for which application threads were stopped: 0.0013831 seconds, Stopping threads took: 0.0000970 seconds
+2024-07-28T16:43:15.640+0800: 10.461: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:15.641+0800: 10.462: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.641+0800: 10.463: [CMS-concurrent-reset-start]
+2024-07-28T16:43:15.643+0800: 10.464: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.755+0800: 10.576: Application time: 0.1154801 seconds
+2024-07-28T16:43:15.755+0800: 10.576: [GC (Allocation Failure) 2024-07-28T16:43:15.755+0800: 10.576: [ParNew: 77168K->8192K(78656K), 0.0065757 secs] 408577K->369297K(631008K), 0.0066345 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.762+0800: 10.583: Total time for which application threads were stopped: 0.0067534 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:15.762+0800: 10.583: Application time: 0.0002268 seconds
+2024-07-28T16:43:15.762+0800: 10.584: [GC (CMS Initial Mark) [1 CMS-initial-mark: 361105K(552352K)] 372737K(631008K), 0.0007633 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.763+0800: 10.584: Total time for which application threads were stopped: 0.0009633 seconds, Stopping threads took: 0.0001574 seconds
+2024-07-28T16:43:15.763+0800: 10.584: [CMS-concurrent-mark-start]
+2024-07-28T16:43:15.768+0800: 10.589: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.768+0800: 10.589: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:15.768+0800: 10.590: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:15.768+0800: 10.590: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:15.878+0800: 10.700: Application time: 0.1155254 seconds
+2024-07-28T16:43:15.878+0800: 10.700: [GC (Allocation Failure) 2024-07-28T16:43:15.878+0800: 10.700: [ParNew: 77168K->8192K(78656K), 0.0124870 secs] 438274K->437906K(631008K), 0.0125418 secs] [Times: user=0.01 sys=0.01, real=0.01 secs] 
+2024-07-28T16:43:15.891+0800: 10.713: Total time for which application threads were stopped: 0.0126578 seconds, Stopping threads took: 0.0000202 seconds
+2024-07-28T16:43:15.895+0800: 10.717: Application time: 0.0045250 seconds
+2024-07-28T16:43:15.896+0800: 10.717: [GC (Allocation Failure) 2024-07-28T16:43:15.896+0800: 10.717: [ParNew: 77168K->8192K(78656K), 0.0135298 secs] 506883K->506515K(631008K), 0.0135861 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:15.909+0800: 10.731: Total time for which application threads were stopped: 0.0136908 seconds, Stopping threads took: 0.0000160 seconds
+2024-07-28T16:43:16.020+0800: 10.841: Application time: 0.1105727 seconds
+2024-07-28T16:43:16.020+0800: 10.841: [GC (Allocation Failure) 2024-07-28T16:43:16.020+0800: 10.841: [ParNew: 77168K->8192K(78656K), 0.0195199 secs] 575492K->537236K(631008K), 0.0195789 secs] [Times: user=0.02 sys=0.02, real=0.02 secs] 
+2024-07-28T16:43:16.039+0800: 10.861: Total time for which application threads were stopped: 0.0196878 seconds, Stopping threads took: 0.0000183 seconds
+2024-07-28T16:43:16.040+0800: 10.861: [CMS-concurrent-abortable-preclean: 0.007/0.271 secs] [Times: user=0.09 sys=0.03, real=0.27 secs] 
+2024-07-28T16:43:16.040+0800: 10.861: Application time: 0.0003929 seconds
+2024-07-28T16:43:16.040+0800: 10.862: [GC (CMS Final Remark) [YG occupancy: 14703 K (78656 K)]2024-07-28T16:43:16.040+0800: 10.862: [Rescan (parallel) , 0.0009226 secs]2024-07-28T16:43:16.041+0800: 10.863: [weak refs processing, 0.0000129 secs]2024-07-28T16:43:16.041+0800: 10.863: [class unloading, 0.0002032 secs]2024-07-28T16:43:16.041+0800: 10.863: [scrub symbol table, 0.0003365 secs]2024-07-28T16:43:16.041+0800: 10.863: [scrub string table, 0.0001082 secs][1 CMS-remark: 529044K(552352K)] 543747K(631008K), 0.0016471 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.042+0800: 10.863: Total time for which application threads were stopped: 0.0018091 seconds, Stopping threads took: 0.0001237 seconds
+2024-07-28T16:43:16.042+0800: 10.863: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:16.043+0800: 10.865: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.043+0800: 10.865: [CMS-concurrent-reset-start]
+2024-07-28T16:43:16.045+0800: 10.866: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.157+0800: 10.979: Application time: 0.1155876 seconds
+2024-07-28T16:43:16.158+0800: 10.979: [GC (Allocation Failure) 2024-07-28T16:43:16.158+0800: 10.979: [ParNew: 77168K->8192K(78656K), 0.0207980 secs] 275455K->275088K(631008K), 0.0208601 secs] [Times: user=0.05 sys=0.02, real=0.02 secs] 
+2024-07-28T16:43:16.178+0800: 11.000: Total time for which application threads were stopped: 0.0209919 seconds, Stopping threads took: 0.0000243 seconds
+2024-07-28T16:43:16.183+0800: 11.004: Application time: 0.0043331 seconds
+2024-07-28T16:43:16.183+0800: 11.004: [GC (Allocation Failure) 2024-07-28T16:43:16.183+0800: 11.004: [ParNew: 77168K->8192K(78656K), 0.0119920 secs] 344064K->343697K(631008K), 0.0120453 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.195+0800: 11.016: Total time for which application threads were stopped: 0.0121423 seconds, Stopping threads took: 0.0000148 seconds
+2024-07-28T16:43:16.195+0800: 11.016: Application time: 0.0001286 seconds
+2024-07-28T16:43:16.195+0800: 11.017: [GC (CMS Initial Mark) [1 CMS-initial-mark: 335505K(552352K)] 347136K(631008K), 0.0005930 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.196+0800: 11.017: Total time for which application threads were stopped: 0.0007082 seconds, Stopping threads took: 0.0000745 seconds
+2024-07-28T16:43:16.196+0800: 11.017: [CMS-concurrent-mark-start]
+2024-07-28T16:43:16.198+0800: 11.019: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.198+0800: 11.019: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:16.199+0800: 11.020: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.199+0800: 11.020: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:16.301+0800: 11.123: Application time: 0.1058359 seconds
+2024-07-28T16:43:16.301+0800: 11.123: [GC (Allocation Failure) 2024-07-28T16:43:16.301+0800: 11.123: [ParNew: 77168K->8192K(78656K), 0.0069572 secs] 412673K->375441K(631008K), 0.0070162 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.309+0800: 11.130: Total time for which application threads were stopped: 0.0071394 seconds, Stopping threads took: 0.0000195 seconds
+2024-07-28T16:43:16.425+0800: 11.245: Application time: 0.1153878 seconds
+2024-07-28T16:43:16.425+0800: 11.246: [GC (Allocation Failure) 2024-07-28T16:43:16.425+0800: 11.246: [ParNew: 77168K->8192K(78656K), 0.0122001 secs] 444418K->444050K(631008K), 0.0122696 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.437+0800: 11.258: Total time for which application threads were stopped: 0.0123857 seconds, Stopping threads took: 0.0000235 seconds
+2024-07-28T16:43:16.441+0800: 11.262: Application time: 0.0044949 seconds
+2024-07-28T16:43:16.441+0800: 11.262: [GC (Allocation Failure) 2024-07-28T16:43:16.441+0800: 11.262: [ParNew: 77168K->8192K(78656K), 0.0120921 secs] 513027K->512659K(631008K), 0.0121444 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.454+0800: 11.275: Total time for which application threads were stopped: 0.0122431 seconds, Stopping threads took: 0.0000153 seconds
+2024-07-28T16:43:16.454+0800: 11.275: [CMS-concurrent-abortable-preclean: 0.004/0.255 secs] [Times: user=0.05 sys=0.00, real=0.26 secs] 
+2024-07-28T16:43:16.454+0800: 11.275: Application time: 0.0003621 seconds
+2024-07-28T16:43:16.454+0800: 11.275: [GC (CMS Final Remark) [YG occupancy: 13679 K (78656 K)]2024-07-28T16:43:16.454+0800: 11.275: [Rescan (parallel) , 0.0010513 secs]2024-07-28T16:43:16.455+0800: 11.276: [weak refs processing, 0.0000131 secs]2024-07-28T16:43:16.455+0800: 11.276: [class unloading, 0.0002036 secs]2024-07-28T16:43:16.455+0800: 11.276: [scrub symbol table, 0.0003864 secs]2024-07-28T16:43:16.456+0800: 11.277: [scrub string table, 0.0001037 secs][1 CMS-remark: 504467K(552352K)] 518147K(631008K), 0.0018225 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.456+0800: 11.277: Total time for which application threads were stopped: 0.0019924 seconds, Stopping threads took: 0.0001332 seconds
+2024-07-28T16:43:16.456+0800: 11.277: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:16.457+0800: 11.278: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.458+0800: 11.279: [CMS-concurrent-reset-start]
+2024-07-28T16:43:16.458+0800: 11.279: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.567+0800: 11.388: Application time: 0.1111172 seconds
+2024-07-28T16:43:16.567+0800: 11.388: [GC (Allocation Failure) 2024-07-28T16:43:16.567+0800: 11.388: [ParNew: 77168K->8192K(78656K), 0.0083935 secs] 414721K->378513K(641248K), 0.0084601 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.576+0800: 11.397: Total time for which application threads were stopped: 0.0085725 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:16.576+0800: 11.397: Application time: 0.0000935 seconds
+2024-07-28T16:43:16.576+0800: 11.397: [GC (CMS Initial Mark) [1 CMS-initial-mark: 370321K(562592K)] 379537K(641248K), 0.0008889 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.577+0800: 11.398: Total time for which application threads were stopped: 0.0010334 seconds, Stopping threads took: 0.0000990 seconds
+2024-07-28T16:43:16.577+0800: 11.398: [CMS-concurrent-mark-start]
+2024-07-28T16:43:16.581+0800: 11.402: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.581+0800: 11.402: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:16.582+0800: 11.403: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.582+0800: 11.403: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:16.693+0800: 11.514: Application time: 0.1162913 seconds
+2024-07-28T16:43:16.693+0800: 11.514: [GC (Allocation Failure) 2024-07-28T16:43:16.693+0800: 11.514: [ParNew: 77168K->8192K(78656K), 0.0142092 secs] 447490K->447122K(641248K), 0.0142849 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.708+0800: 11.529: Total time for which application threads were stopped: 0.0143969 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:16.712+0800: 11.533: Application time: 0.0044816 seconds
+2024-07-28T16:43:16.712+0800: 11.533: [GC (Allocation Failure) 2024-07-28T16:43:16.712+0800: 11.533: [ParNew: 77168K->8192K(78656K), 0.0126212 secs] 516099K->515731K(641248K), 0.0126706 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.725+0800: 11.546: Total time for which application threads were stopped: 0.0127695 seconds, Stopping threads took: 0.0000148 seconds
+2024-07-28T16:43:16.834+0800: 11.655: Application time: 0.1094887 seconds
+2024-07-28T16:43:16.834+0800: 11.655: [GC (Allocation Failure) 2024-07-28T16:43:16.834+0800: 11.655: [ParNew: 77168K->8192K(78656K), 0.0071223 secs] 584708K->549524K(641248K), 0.0071822 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.841+0800: 11.663: Total time for which application threads were stopped: 0.0073064 seconds, Stopping threads took: 0.0000331 seconds
+2024-07-28T16:43:16.841+0800: 11.663: [CMS-concurrent-abortable-preclean: 0.008/0.259 secs] [Times: user=0.08 sys=0.00, real=0.26 secs] 
+2024-07-28T16:43:16.841+0800: 11.663: Application time: 0.0002814 seconds
+2024-07-28T16:43:16.842+0800: 11.663: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:16.842+0800: 11.663: [Rescan (parallel) , 0.0009911 secs]2024-07-28T16:43:16.843+0800: 11.664: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:16.843+0800: 11.664: [class unloading, 0.0001989 secs]2024-07-28T16:43:16.843+0800: 11.664: [scrub symbol table, 0.0003411 secs]2024-07-28T16:43:16.843+0800: 11.665: [scrub string table, 0.0001002 secs][1 CMS-remark: 541332K(562592K)] 553987K(641248K), 0.0017075 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.843+0800: 11.665: Total time for which application threads were stopped: 0.0019412 seconds, Stopping threads took: 0.0001974 seconds
+2024-07-28T16:43:16.844+0800: 11.665: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:16.845+0800: 11.667: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.845+0800: 11.667: [CMS-concurrent-reset-start]
+2024-07-28T16:43:16.847+0800: 11.668: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.957+0800: 11.778: Application time: 0.1132300 seconds
+2024-07-28T16:43:16.957+0800: 11.778: [GC (Allocation Failure) 2024-07-28T16:43:16.957+0800: 11.778: [ParNew: 77168K->8192K(78656K), 0.0120825 secs] 281599K->281232K(641248K), 0.0121555 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.969+0800: 11.790: Total time for which application threads were stopped: 0.0122798 seconds, Stopping threads took: 0.0000255 seconds
+2024-07-28T16:43:16.969+0800: 11.790: Application time: 0.0001828 seconds
+2024-07-28T16:43:16.969+0800: 11.791: [GC (CMS Initial Mark) [1 CMS-initial-mark: 273040K(562592K)] 284671K(641248K), 0.0007773 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.970+0800: 11.791: Total time for which application threads were stopped: 0.0009883 seconds, Stopping threads took: 0.0001694 seconds
+2024-07-28T16:43:16.970+0800: 11.792: [CMS-concurrent-mark-start]
+2024-07-28T16:43:16.974+0800: 11.795: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.974+0800: 11.795: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:16.975+0800: 11.797: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.975+0800: 11.797: Application time: 0.0053525 seconds
+2024-07-28T16:43:16.975+0800: 11.797: [GC (Allocation Failure) 2024-07-28T16:43:16.975+0800: 11.797: [ParNew: 77168K->8192K(78656K), 0.0119743 secs] 350208K->349841K(641248K), 0.0120226 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:16.987+0800: 11.809: Total time for which application threads were stopped: 0.0121176 seconds, Stopping threads took: 0.0000124 seconds
+2024-07-28T16:43:16.988+0800: 11.809: Application time: 0.0001648 seconds
+2024-07-28T16:43:16.988+0800: 11.809: [GC (CMS Final Remark) [YG occupancy: 9216 K (78656 K)]2024-07-28T16:43:16.988+0800: 11.809: [Rescan (parallel) , 0.0008278 secs]2024-07-28T16:43:16.989+0800: 11.810: [weak refs processing, 0.0000126 secs]2024-07-28T16:43:16.989+0800: 11.810: [class unloading, 0.0001853 secs]2024-07-28T16:43:16.989+0800: 11.810: [scrub symbol table, 0.0003407 secs]2024-07-28T16:43:16.989+0800: 11.811: [scrub string table, 0.0001129 secs][1 CMS-remark: 341649K(562592K)] 350865K(641248K), 0.0015459 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.989+0800: 11.811: Total time for which application threads were stopped: 0.0016935 seconds, Stopping threads took: 0.0001091 seconds
+2024-07-28T16:43:16.990+0800: 11.811: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:16.991+0800: 11.813: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:16.991+0800: 11.813: [CMS-concurrent-reset-start]
+2024-07-28T16:43:16.992+0800: 11.813: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.102+0800: 11.923: Application time: 0.1119413 seconds
+2024-07-28T16:43:17.102+0800: 11.923: [GC (Allocation Failure) 2024-07-28T16:43:17.102+0800: 11.923: [ParNew: 77168K->8192K(78656K), 0.0077612 secs] 248831K->214671K(641248K), 0.0078194 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.110+0800: 11.931: Total time for which application threads were stopped: 0.0079314 seconds, Stopping threads took: 0.0000195 seconds
+2024-07-28T16:43:17.224+0800: 12.045: Application time: 0.1147093 seconds
+2024-07-28T16:43:17.224+0800: 12.045: [GC (Allocation Failure) 2024-07-28T16:43:17.224+0800: 12.045: [ParNew: 77168K->8192K(78656K), 0.0120511 secs] 283647K->283280K(641248K), 0.0121109 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.236+0800: 12.058: Total time for which application threads were stopped: 0.0122233 seconds, Stopping threads took: 0.0000196 seconds
+2024-07-28T16:43:17.240+0800: 12.062: Application time: 0.0045150 seconds
+2024-07-28T16:43:17.241+0800: 12.062: [GC (Allocation Failure) 2024-07-28T16:43:17.241+0800: 12.062: [ParNew: 77168K->8192K(78656K), 0.0123151 secs] 352256K->351889K(641248K), 0.0123684 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.253+0800: 12.075: Total time for which application threads were stopped: 0.0124723 seconds, Stopping threads took: 0.0000199 seconds
+2024-07-28T16:43:17.253+0800: 12.075: Application time: 0.0002372 seconds
+2024-07-28T16:43:17.253+0800: 12.075: [GC (CMS Initial Mark) [1 CMS-initial-mark: 343697K(562592K)] 355328K(641248K), 0.0007079 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.254+0800: 12.076: Total time for which application threads were stopped: 0.0009054 seconds, Stopping threads took: 0.0001540 seconds
+2024-07-28T16:43:17.254+0800: 12.076: [CMS-concurrent-mark-start]
+2024-07-28T16:43:17.256+0800: 12.078: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.256+0800: 12.078: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:17.257+0800: 12.079: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.257+0800: 12.079: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:17.367+0800: 12.188: Application time: 0.1119280 seconds
+2024-07-28T16:43:17.367+0800: 12.188: [GC (Allocation Failure) 2024-07-28T16:43:17.367+0800: 12.188: [ParNew: 77168K->8192K(78656K), 0.0074839 secs] 420865K->387729K(641248K), 0.0075440 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.375+0800: 12.195: Total time for which application threads were stopped: 0.0076724 seconds, Stopping threads took: 0.0000334 seconds
+2024-07-28T16:43:17.491+0800: 12.312: Application time: 0.1165004 seconds
+2024-07-28T16:43:17.491+0800: 12.312: [GC (Allocation Failure) 2024-07-28T16:43:17.491+0800: 12.312: [ParNew: 77168K->8192K(78656K), 0.0123227 secs] 456706K->456338K(641248K), 0.0123823 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.503+0800: 12.324: Total time for which application threads were stopped: 0.0124933 seconds, Stopping threads took: 0.0000203 seconds
+2024-07-28T16:43:17.503+0800: 12.324: [CMS-concurrent-abortable-preclean: 0.005/0.246 secs] [Times: user=0.00 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:17.503+0800: 12.325: Application time: 0.0002843 seconds
+2024-07-28T16:43:17.503+0800: 12.325: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:17.503+0800: 12.325: [Rescan (parallel) , 0.0009832 secs]2024-07-28T16:43:17.504+0800: 12.326: [weak refs processing, 0.0000129 secs]2024-07-28T16:43:17.504+0800: 12.326: [class unloading, 0.0001821 secs]2024-07-28T16:43:17.504+0800: 12.326: [scrub symbol table, 0.0003822 secs]2024-07-28T16:43:17.506+0800: 12.326: [scrub string table, 0.0001077 secs][1 CMS-remark: 448146K(562592K)] 460802K(641248K), 0.0017386 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+2024-07-28T16:43:17.506+0800: 12.327: Total time for which application threads were stopped: 0.0019395 seconds, Stopping threads took: 0.0001611 seconds
+2024-07-28T16:43:17.506+0800: 12.327: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:17.507+0800: 12.328: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.507+0800: 12.328: [CMS-concurrent-reset-start]
+2024-07-28T16:43:17.508+0800: 12.329: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.510+0800: 12.331: Application time: 0.0047991 seconds
+2024-07-28T16:43:17.510+0800: 12.331: [GC (Allocation Failure) 2024-07-28T16:43:17.510+0800: 12.331: [ParNew: 77168K->8192K(78656K), 0.0123985 secs] 354304K->353937K(641248K), 0.0124445 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.522+0800: 12.344: Total time for which application threads were stopped: 0.0125537 seconds, Stopping threads took: 0.0000141 seconds
+2024-07-28T16:43:17.522+0800: 12.344: Application time: 0.0001976 seconds
+2024-07-28T16:43:17.524+0800: 12.344: [GC (CMS Initial Mark) [1 CMS-initial-mark: 345745K(562592K)] 357376K(641248K), 0.0008106 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.524+0800: 12.345: Total time for which application threads were stopped: 0.0009829 seconds, Stopping threads took: 0.0001275 seconds
+2024-07-28T16:43:17.524+0800: 12.345: [CMS-concurrent-mark-start]
+2024-07-28T16:43:17.526+0800: 12.347: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.526+0800: 12.347: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:17.526+0800: 12.348: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.526+0800: 12.348: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:17.634+0800: 12.456: Application time: 0.1104205 seconds
+2024-07-28T16:43:17.634+0800: 12.456: [GC (Allocation Failure) 2024-07-28T16:43:17.634+0800: 12.456: [ParNew: 77168K->8192K(78656K), 0.0086115 secs] 422913K->390801K(641248K), 0.0086728 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.643+0800: 12.464: Total time for which application threads were stopped: 0.0087884 seconds, Stopping threads took: 0.0000204 seconds
+2024-07-28T16:43:17.756+0800: 12.578: Application time: 0.1135040 seconds
+2024-07-28T16:43:17.756+0800: 12.578: [GC (Allocation Failure) 2024-07-28T16:43:17.756+0800: 12.578: [ParNew: 77168K->8192K(78656K), 0.0122717 secs] 459778K->459410K(641248K), 0.0123462 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.769+0800: 12.590: Total time for which application threads were stopped: 0.0124575 seconds, Stopping threads took: 0.0000192 seconds
+2024-07-28T16:43:17.769+0800: 12.590: [CMS-concurrent-abortable-preclean: 0.006/0.242 secs] [Times: user=0.03 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:17.769+0800: 12.591: Application time: 0.0002858 seconds
+2024-07-28T16:43:17.769+0800: 12.591: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:17.769+0800: 12.591: [Rescan (parallel) , 0.0008849 secs]2024-07-28T16:43:17.770+0800: 12.592: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:17.770+0800: 12.592: [class unloading, 0.0001905 secs]2024-07-28T16:43:17.770+0800: 12.592: [scrub symbol table, 0.0003565 secs]2024-07-28T16:43:17.771+0800: 12.592: [scrub string table, 0.0000947 secs][1 CMS-remark: 451218K(562592K)] 463874K(641248K), 0.0016086 secs] [Times: user=0.13 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.771+0800: 12.592: Total time for which application threads were stopped: 0.0017256 seconds, Stopping threads took: 0.0000791 seconds
+2024-07-28T16:43:17.771+0800: 12.593: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:17.773+0800: 12.594: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.773+0800: 12.594: [CMS-concurrent-reset-start]
+2024-07-28T16:43:17.774+0800: 12.596: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.776+0800: 12.597: Application time: 0.0048875 seconds
+2024-07-28T16:43:17.776+0800: 12.597: [GC (Allocation Failure) 2024-07-28T16:43:17.776+0800: 12.597: [ParNew: 77168K->8192K(78656K), 0.0122724 secs] 356352K->355985K(641248K), 0.0123190 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.788+0800: 12.610: Total time for which application threads were stopped: 0.0124165 seconds, Stopping threads took: 0.0000143 seconds
+2024-07-28T16:43:17.788+0800: 12.610: Application time: 0.0001451 seconds
+2024-07-28T16:43:17.788+0800: 12.610: [GC (CMS Initial Mark) [1 CMS-initial-mark: 347793K(562592K)] 359424K(641248K), 0.0007673 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.789+0800: 12.611: Total time for which application threads were stopped: 0.0008904 seconds, Stopping threads took: 0.0000810 seconds
+2024-07-28T16:43:17.789+0800: 12.611: [CMS-concurrent-mark-start]
+2024-07-28T16:43:17.791+0800: 12.613: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.791+0800: 12.613: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:17.792+0800: 12.614: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:17.792+0800: 12.614: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:17.902+0800: 12.723: Application time: 0.1125209 seconds
+2024-07-28T16:43:17.902+0800: 12.723: [GC (Allocation Failure) 2024-07-28T16:43:17.902+0800: 12.723: [ParNew: 77168K->8192K(78656K), 0.0077228 secs] 424961K->393873K(641248K), 0.0077825 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:17.910+0800: 12.731: Total time for which application threads were stopped: 0.0078956 seconds, Stopping threads took: 0.0000202 seconds
+2024-07-28T16:43:18.025+0800: 12.846: Application time: 0.1151341 seconds
+2024-07-28T16:43:18.025+0800: 12.846: [GC (Allocation Failure) 2024-07-28T16:43:18.025+0800: 12.846: [ParNew: 77168K->8192K(78656K), 0.0125037 secs] 462850K->462482K(641248K), 0.0125628 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.038+0800: 12.859: Total time for which application threads were stopped: 0.0126877 seconds, Stopping threads took: 0.0000201 seconds
+2024-07-28T16:43:18.038+0800: 12.859: [CMS-concurrent-abortable-preclean: 0.006/0.245 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:18.038+0800: 12.859: Application time: 0.0002975 seconds
+2024-07-28T16:43:18.038+0800: 12.859: [GC (CMS Final Remark) [YG occupancy: 12655 K (78656 K)]2024-07-28T16:43:18.038+0800: 12.859: [Rescan (parallel) , 0.0007874 secs]2024-07-28T16:43:18.039+0800: 12.860: [weak refs processing, 0.0000128 secs]2024-07-28T16:43:18.039+0800: 12.860: [class unloading, 0.0002010 secs]2024-07-28T16:43:18.039+0800: 12.860: [scrub symbol table, 0.0003716 secs]2024-07-28T16:43:18.040+0800: 12.861: [scrub string table, 0.0000918 secs][1 CMS-remark: 454290K(562592K)] 466946K(641248K), 0.0015326 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.040+0800: 12.861: Total time for which application threads were stopped: 0.0016989 seconds, Stopping threads took: 0.0001294 seconds
+2024-07-28T16:43:18.040+0800: 12.861: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:18.041+0800: 12.862: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.041+0800: 12.862: [CMS-concurrent-reset-start]
+2024-07-28T16:43:18.043+0800: 12.864: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.045+0800: 12.866: Application time: 0.0048220 seconds
+2024-07-28T16:43:18.045+0800: 12.866: [GC (Allocation Failure) 2024-07-28T16:43:18.045+0800: 12.866: [ParNew: 77168K->8192K(78656K), 0.0122182 secs] 358400K->358033K(641248K), 0.0122657 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.057+0800: 12.878: Total time for which application threads were stopped: 0.0123613 seconds, Stopping threads took: 0.0000133 seconds
+2024-07-28T16:43:18.057+0800: 12.878: Application time: 0.0002603 seconds
+2024-07-28T16:43:18.058+0800: 12.879: [GC (CMS Initial Mark) [1 CMS-initial-mark: 349841K(562592K)] 361473K(641248K), 0.0008188 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.058+0800: 12.879: Total time for which application threads were stopped: 0.0009849 seconds, Stopping threads took: 0.0001230 seconds
+2024-07-28T16:43:18.058+0800: 12.879: [CMS-concurrent-mark-start]
+2024-07-28T16:43:18.061+0800: 12.882: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.061+0800: 12.882: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:18.061+0800: 12.882: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.061+0800: 12.882: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:18.168+0800: 12.990: Application time: 0.1104600 seconds
+2024-07-28T16:43:18.168+0800: 12.990: [GC (Allocation Failure) 2024-07-28T16:43:18.168+0800: 12.990: [ParNew: 77168K->8192K(78656K), 0.0078261 secs] 427010K->396945K(641248K), 0.0079038 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.176+0800: 12.998: Total time for which application threads were stopped: 0.0080185 seconds, Stopping threads took: 0.0000186 seconds
+2024-07-28T16:43:18.292+0800: 13.114: Application time: 0.1161171 seconds
+2024-07-28T16:43:18.292+0800: 13.114: [GC (Allocation Failure) 2024-07-28T16:43:18.292+0800: 13.114: [ParNew: 77868K->8196K(78656K), 0.0122308 secs] 466622K->465559K(641248K), 0.0122900 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.305+0800: 13.126: Total time for which application threads were stopped: 0.0123992 seconds, Stopping threads took: 0.0000188 seconds
+2024-07-28T16:43:18.305+0800: 13.126: [CMS-concurrent-abortable-preclean: 0.005/0.244 secs] [Times: user=0.06 sys=0.00, real=0.24 secs] 
+2024-07-28T16:43:18.305+0800: 13.127: Application time: 0.0003396 seconds
+2024-07-28T16:43:18.305+0800: 13.127: [GC (CMS Final Remark) [YG occupancy: 13678 K (78656 K)]2024-07-28T16:43:18.305+0800: 13.127: [Rescan (parallel) , 0.0008863 secs]2024-07-28T16:43:18.306+0800: 13.128: [weak refs processing, 0.0000127 secs]2024-07-28T16:43:18.306+0800: 13.128: [class unloading, 0.0001850 secs]2024-07-28T16:43:18.306+0800: 13.128: [scrub symbol table, 0.0003717 secs]2024-07-28T16:43:18.307+0800: 13.128: [scrub string table, 0.0001065 secs][1 CMS-remark: 457362K(562592K)] 471041K(641248K), 0.0016322 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.307+0800: 13.128: Total time for which application threads were stopped: 0.0017600 seconds, Stopping threads took: 0.0000912 seconds
+2024-07-28T16:43:18.307+0800: 13.129: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:18.308+0800: 13.130: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.309+0800: 13.130: [CMS-concurrent-reset-start]
+2024-07-28T16:43:18.310+0800: 13.131: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.312+0800: 13.133: Application time: 0.0047382 seconds
+2024-07-28T16:43:18.312+0800: 13.133: [GC (Allocation Failure) 2024-07-28T16:43:18.312+0800: 13.133: [ParNew: 77167K->8192K(78656K), 0.0123123 secs] 185341K->184974K(641248K), 0.0123549 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.324+0800: 13.146: Total time for which application threads were stopped: 0.0124478 seconds, Stopping threads took: 0.0000136 seconds
+2024-07-28T16:43:18.324+0800: 13.146: Application time: 0.0002345 seconds
+2024-07-28T16:43:18.324+0800: 13.146: [GC (CMS Initial Mark) [1 CMS-initial-mark: 176782K(562592K)] 188411K(641248K), 0.0008021 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.325+0800: 13.147: Total time for which application threads were stopped: 0.0009255 seconds, Stopping threads took: 0.0000818 seconds
+2024-07-28T16:43:18.325+0800: 13.147: [CMS-concurrent-mark-start]
+2024-07-28T16:43:18.327+0800: 13.149: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.327+0800: 13.149: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:18.328+0800: 13.149: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.328+0800: 13.149: [CMS-concurrent-abortable-preclean-start]
+2024-07-28T16:43:18.437+0800: 13.258: Application time: 0.1112935 seconds
+2024-07-28T16:43:18.437+0800: 13.258: [GC (Allocation Failure) 2024-07-28T16:43:18.437+0800: 13.258: [ParNew: 77165K->8192K(78656K), 0.0079996 secs] 253948K->224911K(641248K), 0.0080591 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.446+0800: 13.266: Total time for which application threads were stopped: 0.0081778 seconds, Stopping threads took: 0.0000206 seconds
+2024-07-28T16:43:18.562+0800: 13.383: Application time: 0.1169792 seconds
+2024-07-28T16:43:18.563+0800: 13.383: [GC (Allocation Failure) 2024-07-28T16:43:18.563+0800: 13.383: [ParNew: 77166K->8192K(78656K), 0.0126308 secs] 293886K->293520K(641248K), 0.0126946 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.575+0800: 13.396: Total time for which application threads were stopped: 0.0128279 seconds, Stopping threads took: 0.0000394 seconds
+2024-07-28T16:43:18.575+0800: 13.396: [CMS-concurrent-abortable-preclean: 0.006/0.247 secs] [Times: user=0.06 sys=0.00, real=0.25 secs] 
+2024-07-28T16:43:18.576+0800: 13.396: Application time: 0.0003116 seconds
+2024-07-28T16:43:18.576+0800: 13.397: [GC (CMS Final Remark) [YG occupancy: 11630 K (78656 K)]2024-07-28T16:43:18.576+0800: 13.397: [Rescan (parallel) , 0.0006947 secs]2024-07-28T16:43:18.577+0800: 13.397: [weak refs processing, 0.0000217 secs]2024-07-28T16:43:18.577+0800: 13.397: [class unloading, 0.0001943 secs]2024-07-28T16:43:18.577+0800: 13.398: [scrub symbol table, 0.0003063 secs]2024-07-28T16:43:18.577+0800: 13.398: [scrub string table, 0.0000910 secs][1 CMS-remark: 285328K(562592K)] 296958K(641248K), 0.0013766 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.577+0800: 13.398: Total time for which application threads were stopped: 0.0015509 seconds, Stopping threads took: 0.0001368 seconds
+2024-07-28T16:43:18.577+0800: 13.398: [CMS-concurrent-sweep-start]
+2024-07-28T16:43:18.579+0800: 13.400: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.579+0800: 13.400: [CMS-concurrent-reset-start]
+2024-07-28T16:43:18.580+0800: 13.401: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.582+0800: 13.403: Application time: 0.0047678 seconds
+2024-07-28T16:43:18.582+0800: 13.403: [GC (Allocation Failure) 2024-07-28T16:43:18.582+0800: 13.403: [ParNew: 77167K->8192K(78656K), 0.0121579 secs] 362495K->362129K(641248K), 0.0122056 secs] [Times: user=0.13 sys=0.00, real=0.01 secs] 
+2024-07-28T16:43:18.594+0800: 13.415: Total time for which application threads were stopped: 0.0123057 seconds, Stopping threads took: 0.0000125 seconds
+2024-07-28T16:43:18.595+0800: 13.415: Application time: 0.0002526 seconds
+2024-07-28T16:43:18.595+0800: 13.415: [GC (CMS Initial Mark) [1 CMS-initial-mark: 353937K(562592K)] 365568K(641248K), 0.0007224 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.595+0800: 13.416: Total time for which application threads were stopped: 0.0009038 seconds, Stopping threads took: 0.0001371 seconds
+2024-07-28T16:43:18.596+0800: 13.416: [CMS-concurrent-mark-start]
+2024-07-28T16:43:18.597+0800: 13.418: [CMS-concurrent-mark: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.597+0800: 13.418: [CMS-concurrent-preclean-start]
+2024-07-28T16:43:18.598+0800: 13.419: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2024-07-28T16:43:18.598+0800: 13.419: [CMS-concurrent-abortable-preclean-start]
+Heap
+ par new generation   total 78656K, used 29414K [0x00000000c8000000, 0x00000000cd550000, 0x00000000daaa0000)
+  eden space 69952K,  30% used [0x00000000c8000000, 0x00000000c94b99c8, 0x00000000cc450000)
+  from space 8704K,  94% used [0x00000000cccd0000, 0x00000000cd4d0080, 0x00000000cd550000)
+  to   space 8704K,   0% used [0x00000000cc450000, 0x00000000cc450000, 0x00000000cccd0000)
+ concurrent mark-sweep generation total 562592K, used 353937K [0x00000000daaa0000, 0x00000000fd008000, 0x0000000100000000)
+ Metaspace       used 2942K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 305K, capacity 386K, committed 512K, reserved 1048576K
+2024-07-28T16:43:18.703+0800: 13.524: Application time: 0.1080737 seconds

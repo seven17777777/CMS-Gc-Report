@@ -275,7 +275,6 @@ pause
 
 ![img_1.png](img_1.png)
 
-
 ## 2、启用并发清除的增量模式: 适用于多核CPU，可以减少单次清除的暂停时间
 
 参数为（最大堆设置为896M）
@@ -328,12 +327,6 @@ pause
 从 JDK 8 开始，这个选项已经被标记为过时，
 因为 G1 (Garbage First) 收集器通常是一个更好的选择，它在减少停顿时间和提高吞吐量方面表现更优。
 
-
-
-
-
-
-
 ## 3、调整老年代和新生代的比例
 
 首先分析程序：程序是一个内存密集型的测试程序，通过不断分配和清理内存来触发垃圾回收。
@@ -360,18 +353,260 @@ pause
 ```
 得到下面的日志记录
 <details>
-    <summary>并发清除的增量模式CMSIncrementalMode.log日志</summary>
+    <summary>调整NewRatio后的日志</summary>
 
-- [CMSIncrementalMode](cmsLog/Ratio/CMSIncrementalMode.log)
-- [NewRatio1](cmsLog/Ratio/NewRatio1.log)
-- [NewRatio2](cmsLog/Ratio/NewRatio2.log)
-- [NewRatio3](cmsLog/Ratio/NewRatio3.log)
-- [NewRatio4](cmsLog/Ratio/NewRatio4.log)
+- [NewRatio1](cmsLog/Ratio/aNewRatio1.log)
+- [NewRatio2](cmsLog/Ratio/bNewRatio2.log)
+- [NewRatio3](cmsLog/Ratio/cNewRatio3.log)
+- [NewRatio4](cmsLog/Ratio/dNewRatio4.log)
+- [NewRatio5](cmsLog/Ratio/eNewRatio5.log)
 
 </details>
 从图中可以看出，新生代和老年代比例在1：1的情况下，各方面性能最好
 
-![img_4.png](img_4.png)
+![img_6.png](img_6.png)
 考虑在CMSIncrementalMode模式下选择NewRatio=1得到新日志[CMSIncrementalMode](cmsLog/Ratio/CMSIncrementalMode.log)，
-使用程序分析得到下图，途中显示，性能提高并不明显
+使用程序分析得到下图，根据图中显示，性能有所提高，但有局限性。吞吐量和GC次数有明显提高，但总暂停时间提高不明显，而且增加了相应的平均暂停时间和最大暂停时间
+![img_4.png](img_4.png)
+
+接下来考虑能不能把NewRatio调整到比1还小
+所以考虑使用XX:NewSize直接指定新生代大小
+```shell
+-XX:NewSize=xxxm 
+-XX:MaxNewSize=xxxm
+```
+得到如下的日志
+<details>
+    <summary>调整MaxNewSize后的日志</summary>
+
+- [0IncrementalMode](cmsLog/MaxNewSize/0IncrementalMode.log)
+- [1NewRatio1](cmsLog/MaxNewSize/1NewRatio1.log)
+- [aMaxNewSize512m](cmsLog/MaxNewSize/aMaxNewSize512m.log)
+- [bMaxNewSize544m](cmsLog/MaxNewSize/bMaxNewSize544m.log)
+- [cMaxNewSize576m](cmsLog/MaxNewSize/cMaxNewSize576m.log)
+- [dMaxNewSize608m](cmsLog/MaxNewSize/dMaxNewSize608m.log)
+- [eMaxNewSize640m](cmsLog/MaxNewSize/eMaxNewSize640m.log)
+- [fMaxNewSize672m](cmsLog/MaxNewSize/fMaxNewSize672m.log)
+- [gMaxNewSize704m](cmsLog/MaxNewSize/gMaxNewSize704m.log)
+- [hMaxNewSize736m](cmsLog/MaxNewSize/hMaxNewSize736m.log)
+- [iMaxNewSize768m](cmsLog/MaxNewSize/iMaxNewSize768m.log)
+- [jMaxNewSize800m](cmsLog/MaxNewSize/jMaxNewSize800m.log)
+- [kMaxNewSize832m](cmsLog/MaxNewSize/kMaxNewSize832m.log)
+- [IMaxNewSize864m](cmsLog/MaxNewSize/lMaxNewSize864m.log)
+- [mMaxNewSize896m](cmsLog/MaxNewSize/mMaxNewSize896m.log)
+
+
+</details>
+
+分析结果，容易得出当最大堆内存为896m的时候，年轻代在768m的时候，性能最优。
 ![img_5.png](img_5.png)
+
+## 4、CMSParallelInitialMarkEnabled
+开启该阶段的并行标记，使用多个线程进行标记，减少暂停时间
+在程序不变的情况下，使用参数如下
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx896M
+-Xloggc:./gc.log
+-XX:NewSize=768m
+-XX:MaxNewSize=768m
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+然后增加参数
+```shell
+-XX:+CMSParallelInitialMarkEnabled
+```
+得到日志[gc.log](cmsLog/CMSParallelInitialMarkEnabled/gc.log)和日志[ParallelInitialMarkEnabled.log](cmsLog/CMSParallelInitialMarkEnabled/ParallelInitialMarkEnabled.log)，使用分析程序进行分析得到下图
+![img_7.png](img_7.png)
+从图中可以看出，虽然GC次数没有太大变化，但是平均暂停时间和最大暂停时间以及总暂停时间都有明显提高，并且吞吐量也要显著提高。
+
+## 5、CMSParallelRemarkEnabled
+在程序不变的情况下，使用参数如下
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx896M
+-Xloggc:./gc.log
+-XX:NewSize=768m
+-XX:MaxNewSize=768m
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+然后增加参数
+```shell
+-XX:+CMSParallelRemarkEnabled
+```
+得到日志[1gc.log](cmsLog/CMSParallelRemarkEnabled/1gc.log)和日志[ParallelInitialMarkEnabled.log](cmsLog/CMSParallelRemarkEnabled/2ParallelRemarkEnabled.log)，使用分析程序进行分析得到下图
+图中可以看出，GC次数并没减少，但最大暂停时间和平均暂停时间都有明显减少。这是因为标记时间减少引起的。在CMS次数更多的程序中，该参数效果会更好
+![img_13.png](img_13.png)
+
+## 6、ConcGCThreads设置并发 GC 线程数
+在上一步的基础上，使用脚本，运行ConcGCThreads从1到8
+
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx896M
+-Xloggc:./gc.log
+-XX:NewSize=768m
+-XX:MaxNewSize=768m
+-XX:ConcGCThreads=1
+-XX:+CMSParallelInitialMarkEnabled
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+得到下面的日志记录
+<details>
+    <summary>调整ConcGCThreads后的日志</summary>
+
+- [aConcGCThreads1m](cmsLog/ConcGCThreads/aConcGCThreads1m.log)
+- [bConcGCThreads2m](cmsLog/ConcGCThreads/bConcGCThreads2m.log)
+- [cConcGCThreads3m](cmsLog/ConcGCThreads/cConcGCThreads3m.log)
+- [dConcGCThreads4m](cmsLog/ConcGCThreads/dConcGCThreads4m.log)
+- [eConcGCThreads5m](cmsLog/ConcGCThreads/eConcGCThreads5m.log)
+- [fConcGCThreads6m](cmsLog/ConcGCThreads/fConcGCThreads6m.log)
+- [gConcGCThreads7m](cmsLog/ConcGCThreads/gConcGCThreads7m.log)
+- [hConcGCThreads8m](cmsLog/ConcGCThreads/hConcGCThreads8m.log)
+</details>
+分析日志：增加参数对结果的优化程度并不明显，只要不是配置的ConcGCThreads=1或者ConcGCThreads=8，性能都差不多。
+
+![img_8.png](img_8.png)
+多次实验，效果并不优
+![img_9.png](img_9.png)
+
+## 7、CMSScavengeBeforeRemark在CMS的重新标记阶段之前，先尽量执行一次Young GC
+
+在程序不变的情况下，使用参数如下
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx896M
+-Xloggc:./gc.log
+-XX:NewSize=768m
+-XX:MaxNewSize=768m
+-XX:+CMSParallelInitialMarkEnabled
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+然后增加参数
+```shell
+-XX:+CMSScavengeBeforeRemark
+```
+
+得到日志[gc.log](cmsLog/CMSScavengeBeforeRemark/gc.log)和日志[CMSScavengeBeforeRemark.log](cmsLog/CMSScavengeBeforeRemark/ScavengeBeforeRemark.log)，使用分析程序进行分析得到下图
+![img_10.png](img_10.png)
+从图中可以看出，虽然GC次数有减少变化，且平均暂停时间和最大暂停时间以及总暂停时间都有明显减少，并且吞吐量也有提高。
+考虑到程序已经是在优化了很多参数以后继续的优化，所以在运行一个不优化的程序，得到[1gc.log](cmsLog/CMSScavengeBeforeRemark/1gc.log)和日志[2CMSScavengeBeforeRemark.log](cmsLog/CMSScavengeBeforeRemark/2ScavengeBeforeRemark.log)对比一下
+![img_11.png](img_11.png)
+提升效果依然明显但幅度不大。
+
+## 8、MaxTenuringThreshold （不成功）
+对象连续躲过n次垃圾回收后会自动升入老年代
+使用脚本运行从1到15的全部值
+<details>
+    <summary> 脚本如下</summary>
+
+```shell
+@echo off
+setlocal enabledelayedexpansion
+
+rem 检查并创建gcLog目录
+if not exist gcLog (
+    mkdir gcLog
+)
+
+rem 字母序列数组
+set "letters=a b c d e f g h i j k l m n o p q r s t u v w x y z"
+
+rem 初始化字母索引
+set "index=0"
+
+rem 循环内存大小从128m到2048m，每次增加128m
+for /L %%i in (1,1,15) do (
+    rem 获取当前字母
+    for /f "tokens=1,* delims= " %%a in ("!letters!") do (
+        set "letter=%%a"
+        set "letters=%%b"
+        set "logfile=gcLog/!letter!MaxTenuringThreshold%%i.log"
+
+        rem 运行Java程序
+        F:\TencentKona-8.0.18-412\bin\java.exe -cp F:\java_learn\pure-test\src\main\java ^
+            -XX:+UseConcMarkSweepGC ^
+            -XX:+PrintGCDetails ^
+            -XX:+PrintGCDateStamps ^
+            -Xloggc:!logfile! ^
+            -Xmx896m ^
+            -XX:MaxTenuringThreshold=%%i ^
+            -XX:+PrintGCApplicationStoppedTime ^
+            -XX:+PrintGCApplicationConcurrentTime ^
+            com.code.tryOne.jvmGc.CMSGC.CMSOptimization
+
+    )
+)
+
+endlocal
+pause
+
+```
+</details>
+
+<details>
+    <summary>调整MaxTenuringThreshold后的日志</summary>
+
+- [aMaxTenuringThreshold1](cmsLog/MaxTenuringThreshold/aMaxTenuringThreshold1.log)
+- [bMaxTenuringThreshold2](cmsLog/MaxTenuringThreshold/bMaxTenuringThreshold2.log)
+- [cMaxTenuringThreshold3](cmsLog/MaxTenuringThreshold/cMaxTenuringThreshold3.log)
+- [dMaxTenuringThreshold4](cmsLog/MaxTenuringThreshold/dMaxTenuringThreshold4.log)
+- [eMaxTenuringThreshold5](cmsLog/MaxTenuringThreshold/eMaxTenuringThreshold5.log)
+- [fMaxTenuringThreshold6](cmsLog/MaxTenuringThreshold/fMaxTenuringThreshold6.log)
+- [gMaxTenuringThreshold7](cmsLog/MaxTenuringThreshold/gMaxTenuringThreshold7.log)
+- [hMaxTenuringThreshold8](cmsLog/MaxTenuringThreshold/hMaxTenuringThreshold8.log)
+- [iMaxTenuringThreshold9](cmsLog/MaxTenuringThreshold/iMaxTenuringThreshold9.log)
+- [jMaxTenuringThreshold10](cmsLog/MaxTenuringThreshold/jMaxTenuringThreshold10.log)
+- [kMaxTenuringThreshold11](cmsLog/MaxTenuringThreshold/kMaxTenuringThreshold11.log)
+- [lMaxTenuringThreshold12](cmsLog/MaxTenuringThreshold/lMaxTenuringThreshold12.log)
+- [mMaxTenuringThreshold13](cmsLog/MaxTenuringThreshold/mMaxTenuringThreshold13.log)
+- [nMaxTenuringThreshold14](cmsLog/MaxTenuringThreshold/nMaxTenuringThreshold14.log)
+- [oMaxTenuringThreshold15](cmsLog/MaxTenuringThreshold/oMaxTenuringThreshold15.log)
+
+</details>
+图中可以看出，MaxTenuringThreshold参数并不能对该程序的调优有多大的用处
+
+![img_12.png](img_12.png)
+
+## 9、ParallelCMSThreads（不成功）
+在程序不变的情况下，使用参数如下
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xloggc:./ParallelCMSThreads8.log
+-Xmx896M
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+然后增加参数ParallelCMSThreads从1到8
+```shell
+-XX:ParallelCMSThreads=8
+```
+<details>
+    <summary>调整ParallelCMSThreads后的日志</summary>
+
+- [ParallelCMSThreads1](cmsLog/ParallelCMSThreads/ParallelCMSThreads1.log)
+- [ParallelCMSThreads2](cmsLog/ParallelCMSThreads/ParallelCMSThreads2.log)
+- [ParallelCMSThreads3](cmsLog/ParallelCMSThreads/ParallelCMSThreads3.log)
+- [ParallelCMSThreads4](cmsLog/ParallelCMSThreads/ParallelCMSThreads4.log)
+- [ParallelCMSThreads5](cmsLog/ParallelCMSThreads/ParallelCMSThreads5.log)
+- [ParallelCMSThreads6](cmsLog/ParallelCMSThreads/ParallelCMSThreads6.log)
+- [ParallelCMSThreads7](cmsLog/ParallelCMSThreads/ParallelCMSThreads7.log)
+- [ParallelCMSThreads8](cmsLog/ParallelCMSThreads/ParallelCMSThreads8.log)
+</details>
+分析得到下面结果，从结果看，ParallelCMSThreads并不能击中要害，对程序帮助不大
+
+![img_14.png](img_14.png)
