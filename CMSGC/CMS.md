@@ -401,7 +401,58 @@ pause
 分析结果，容易得出当最大堆内存为896m的时候，年轻代在768m的时候，性能最优。
 ![img_5.png](img_5.png)
 
-## 4、CMSParallelInitialMarkEnabled
+## 4、CMSParallelRemarkEnabled
+在程序不变的情况下，使用参数如下
+```shell
+-XX:+UseConcMarkSweepGC
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-Xmx896M
+-Xloggc:./gc.log
+-XX:NewSize=768m
+-XX:MaxNewSize=768m
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintGCApplicationConcurrentTime
+```
+然后增加参数
+```shell
+-XX:+CMSParallelRemarkEnabled
+```
+使用脚本运行10次得到下面的日志
+<details>
+    <summary>调整CMSParallelRemarkEnabled后的日志</summary>
+
+- [agc](cmsLog/CMSParallelInitialMarkEnabled/agc.log)
+- [aParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/aParallelRemarkEnabled.log)
+- [bgc](cmsLog/CMSParallelInitialMarkEnabled/bgc.log)
+- [bParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/bParallelRemarkEnabled.log)
+- [cgc](cmsLog/CMSParallelInitialMarkEnabled/cgc.log)
+- [cParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/cParallelRemarkEnabled.log)
+- [dgc](cmsLog/CMSParallelInitialMarkEnabled/dgc.log)
+- [dParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/dParallelRemarkEnabled.log)
+- [egc](cmsLog/CMSParallelInitialMarkEnabled/egc.log)
+- [eParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/eParallelRemarkEnabled.log)
+- [fgc](cmsLog/CMSParallelInitialMarkEnabled/fgc.log)
+- [fParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/fParallelRemarkEnabled.log)
+- [ggc](cmsLog/CMSParallelInitialMarkEnabled/ggc.log)
+- [gParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/gParallelRemarkEnabled.log)
+- [hgc](cmsLog/CMSParallelInitialMarkEnabled/hgc.log)
+- [hParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/hParallelRemarkEnabled.log)
+- [igc](cmsLog/CMSParallelInitialMarkEnabled/igc.log)
+- [iParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/iParallelRemarkEnabled.log)
+- [jgc](cmsLog/CMSParallelInitialMarkEnabled/jgc.log)
+- [jParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/jParallelRemarkEnabled.log)
+
+
+
+
+</details>
+使用分析程序进行分析得到下图
+图中可以看出，性能并没有什么提高，这是因为该参数是默认开启的
+
+![img_17.png](img_17.png)
+
+## 5、CMSParallelInitialMarkEnabled
 开启该阶段的并行标记，使用多个线程进行标记，减少暂停时间
 在程序不变的情况下，使用参数如下
 ```shell
@@ -419,30 +470,10 @@ pause
 ```shell
 -XX:+CMSParallelInitialMarkEnabled
 ```
-得到日志[gc.log](cmsLog/CMSParallelInitialMarkEnabled/gc.log)和日志[ParallelInitialMarkEnabled.log](cmsLog/CMSParallelInitialMarkEnabled/ParallelInitialMarkEnabled.log)，使用分析程序进行分析得到下图
-![img_7.png](img_7.png)
-从图中可以看出，虽然GC次数没有太大变化，但是平均暂停时间和最大暂停时间以及总暂停时间都有明显提高，并且吞吐量也要显著提高。
-
-## 5、CMSParallelRemarkEnabled
-在程序不变的情况下，使用参数如下
-```shell
--XX:+UseConcMarkSweepGC
--XX:+PrintGCDetails
--XX:+PrintGCDateStamps
--Xmx896M
--Xloggc:./gc.log
--XX:NewSize=768m
--XX:MaxNewSize=768m
--XX:+PrintGCApplicationStoppedTime
--XX:+PrintGCApplicationConcurrentTime
-```
-然后增加参数
-```shell
--XX:+CMSParallelRemarkEnabled
-```
-得到日志[1gc.log](cmsLog/CMSParallelRemarkEnabled/1gc.log)和日志[ParallelInitialMarkEnabled.log](cmsLog/CMSParallelRemarkEnabled/2ParallelRemarkEnabled.log)，使用分析程序进行分析得到下图
-图中可以看出，GC次数并没减少，但最大暂停时间和平均暂停时间都有明显减少。这是因为标记时间减少引起的。在CMS次数更多的程序中，该参数效果会更好
+该参数和上一条参数一样，也是默认开启，所以结果没有什么变化.（日志省略）
+分析如下图：
 ![img_13.png](img_13.png)
+
 
 ## 6、ConcGCThreads设置并发 GC 线程数
 在上一步的基础上，使用脚本，运行ConcGCThreads从1到8
@@ -649,8 +680,6 @@ CMSFullGCsBeforeCompaction 是在上一次CMS并发GC执行过后，到底还要
 -XX:NewSize=768m
 -XX:MaxNewSize=768m
 -XX:ConcGCThreads=2
--XX:+CMSParallelInitialMarkEnabled
--XX:+CMSParallelRemarkEnabled
 -XX:+CMSScavengeBeforeRemark
 -XX:+PrintGCApplicationStoppedTime
 -XX:+PrintGCApplicationConcurrentTime
