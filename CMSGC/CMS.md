@@ -416,34 +416,32 @@ pause
 ```
 然后增加参数
 ```shell
--XX:+CMSParallelRemarkEnabled
+-XX:-CMSParallelRemarkEnabled
 ```
 使用脚本运行10次得到下面的日志
 <details>
     <summary>调整CMSParallelRemarkEnabled后的日志</summary>
 
-- [agc](cmsLog/CMSParallelInitialMarkEnabled/agc.log)
-- [aParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/aParallelRemarkEnabled.log)
-- [bgc](cmsLog/CMSParallelInitialMarkEnabled/bgc.log)
-- [bParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/bParallelRemarkEnabled.log)
-- [cgc](cmsLog/CMSParallelInitialMarkEnabled/cgc.log)
-- [cParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/cParallelRemarkEnabled.log)
-- [dgc](cmsLog/CMSParallelInitialMarkEnabled/dgc.log)
-- [dParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/dParallelRemarkEnabled.log)
-- [egc](cmsLog/CMSParallelInitialMarkEnabled/egc.log)
-- [eParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/eParallelRemarkEnabled.log)
-- [fgc](cmsLog/CMSParallelInitialMarkEnabled/fgc.log)
-- [fParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/fParallelRemarkEnabled.log)
-- [ggc](cmsLog/CMSParallelInitialMarkEnabled/ggc.log)
-- [gParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/gParallelRemarkEnabled.log)
-- [hgc](cmsLog/CMSParallelInitialMarkEnabled/hgc.log)
-- [hParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/hParallelRemarkEnabled.log)
-- [igc](cmsLog/CMSParallelInitialMarkEnabled/igc.log)
-- [iParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/iParallelRemarkEnabled.log)
-- [jgc](cmsLog/CMSParallelInitialMarkEnabled/jgc.log)
-- [jParallelRemarkEnabled](cmsLog/CMSParallelInitialMarkEnabled/jParallelRemarkEnabled.log)
-
-
+- [agc](cmsLog/CMSParallelRemarkEnabled/agc.log)
+- [aParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/aParallelRemarkEnabled.log)
+- [bgc](cmsLog/CMSParallelRemarkEnabled/bgc.log)
+- [bParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/bParallelRemarkEnabled.log)
+- [cgc](cmsLog/CMSParallelRemarkEnabled/cgc.log)
+- [cParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/cParallelRemarkEnabled.log)
+- [dgc](cmsLog/CMSParallelRemarkEnabled/dgc.log)
+- [dParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/dParallelRemarkEnabled.log)
+- [egc](cmsLog/CMSParallelRemarkEnabled/egc.log)
+- [eParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/eParallelRemarkEnabled.log)
+- [fgc](cmsLog/CMSParallelRemarkEnabled/fgc.log)
+- [fParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/fParallelRemarkEnabled.log)
+- [ggc](cmsLog/CMSParallelRemarkEnabled/ggc.log)
+- [gParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/gParallelRemarkEnabled.log)
+- [hgc](cmsLog/CMSParallelRemarkEnabled/hgc.log)
+- [hParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/hParallelRemarkEnabled.log)
+- [igc](cmsLog/CMSParallelRemarkEnabled/igc.log)
+- [iParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/iParallelRemarkEnabled.log)
+- [jgc](cmsLog/CMSParallelRemarkEnabled/jgc.log)
+- [jParallelRemarkEnabled](cmsLog/CMSParallelRemarkEnabled/jParallelRemarkEnabled.log)
 
 
 </details>
@@ -468,11 +466,37 @@ pause
 ```
 然后增加参数
 ```shell
--XX:+CMSParallelInitialMarkEnabled
+-XX:-CMSParallelInitialMarkEnabled
 ```
-该参数和上一条参数一样，也是默认开启，所以结果没有什么变化.（日志省略）
+通过脚本运行多次得到下面日志文件
+<details>
+    <summary>调整CMSParallelInitialMarkEnabled后的日志</summary>
+
+- [agc](cmsLog/CMSParallellnitialMarkEnabled/agc.log)
+- [a-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/a-ParallelInitialMarkEnabled.log)
+- [bgc](cmsLog/CMSParallellnitialMarkEnabled/bgc.log)
+- [b-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/b-ParallelInitialMarkEnabled.log)
+- [cgc](cmsLog/CMSParallellnitialMarkEnabled/cgc.log)
+- [c-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/c-ParallelInitialMarkEnabled.log)
+- [dgc](cmsLog/CMSParallellnitialMarkEnabled/dgc.log)
+- [d-ParallelnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/d-ParallelInitialMarkEnabled.log)
+- [egc](cmsLog/CMSParallellnitialMarkEnabled/egc.log)
+- [e-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/e-ParallelInitialMarkEnabled.log)
+- [fgc](cmsLog/CMSParallellnitialMarkEnabled/fgc.log)
+- [f-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/f-ParallelInitialMarkEnabled.log)
+- [ggc](cmsLog/CMSParallellnitialMarkEnabled/ggc.log)
+- [g-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/g-ParallelInitialMarkEnabled.log)
+- [hgc](cmsLog/CMSParallellnitialMarkEnabled/hgc.log)
+- [h-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/h-ParallelInitialMarkEnabled.log)
+- [igc](cmsLog/CMSParallellnitialMarkEnabled/igc.log)
+- [i-ParallellnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/i-ParallelInitialMarkEnabled.log)
+- [jgc](cmsLog/CMSParallellnitialMarkEnabled/jgc.log)
+- [j-ParallelnitialMarkEnabled](cmsLog/CMSParallellnitialMarkEnabled/j-ParallelInitialMarkEnabled.log)
+
+</details>
+程序变化不大，应该是没有击中程序弱点
 分析如下图：
-![img_13.png](img_13.png)
+![img_18.png](img_18.png)
 
 
 ## 6、ConcGCThreads设置并发 GC 线程数
